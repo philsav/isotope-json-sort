@@ -1,0 +1,81 @@
+
+:root {
+    --grey: #555554;
+  }
+
+body {
+    font-family: calibri, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.navbar{
+    background-color:var(--grey);
+}
+
+.registration{
+    color: #fff;
+    a{
+        color: #fff;
+    }
+}
+
+.banner{
+    color: #fff;
+    background: url("./images/banner.jpg") no-repeat bottom center;
+    background-size: cover;
+    padding:30px;
+
+.lms{
+    display: flex;
+    font-size: 30px;
+    padding-bottom: 15px;
+    h2{
+    font-weight: 700;
+    padding-left: 15px;
+    line-height: 1;
+    }
+    img{
+        padding-top: 5px;
+        align-self: flex-start;
+    }
+}    
+
+.banner-text{
+    padding-bottom: 30px;
+    h3{
+        font-weight: 100;
+        font-size: 22px;
+        strong{
+            font-weight: 700;
+        }
+    }
+}
+
+form{
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    color: #000;
+    max-width: 500px;
+    margin:auto;
+    text-align:center;
+    font-size:16px;
+    .form-control{
+        border-left:none;
+    }
+    .input-group-text{
+        background: #fff;
+        border-right:none;
+        padding: 0 5px 0 10px;
+        img{
+            max-width: 20px;
+        }
+    }
+    .form-check{
+        margin-bottom: 15px!important;
+    }
+    button{
+        width: 220px;
+    }
+}
+}
