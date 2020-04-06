@@ -1,8 +1,24 @@
-[ {
-    {
-
-    },
-    {
-        
-    }
-} ]
+[
+	{
+		"course_name": "Robotics - Material Handling ABB",
+		"course_eng_stream": "es-aeronautical",
+		"course_technology": "tech-cad",
+		"course_job_roles": "jr-design-dev",
+		"course_industry": "in-automotive",
+		"course_level": "1",
+		"course_image": "1.png",
+		"course_sublinks": "",
+		"course_link": "12"
+	},
+	{
+		"course_name": "Robotics - Material Handling ABB",
+		"course_eng_stream": "es-automobile",
+		"course_technology": "tech-cae",
+		"course_job_roles": "jr-design-dev",
+		"course_industry": "in-automotive",
+		"course_level": "1",
+		"course_image": "1.png",
+		"course_sublinks": "",
+		"course_link": "12"
+	}
+]

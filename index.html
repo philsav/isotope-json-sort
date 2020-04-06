@@ -163,39 +163,8 @@
 
          <!--courses-->
          <section class="courses">
-            <div class="grid">
-               <div class="course-desc es-aeronautical tech-cad jr-design-dev">        
-                     <img src="images/1.png" alt="">
-                     <h4>Robotics - Material Handling ABB</h4>
-                     <strong>Online Course</strong>
-                     <span class="course-links"><a href="">Automobile Engineering | Robotics | Design & Development | Automotive | Diploma</a></span>
-                     <a href="" class="learn-more">Learn More</a>
-               </div>
-
-               <div class="course-desc es-automobile tech-cae jr-draft-detail">               
-                   <img src="images/1.png" alt="">
-                   <h4>Robotics - Material Handling ABB</h4>
-                   <strong>Online Course</strong>
-                   <span class="course-links"><a href="">Automobile Engineering | Robotics | Design & Development | Automotive | Diploma</a></span>
-                   <a href="" class="learn-more">Learn More</a>                
-             </div>
-
-             <div class="course-desc es-chemical jr-process-plan">
-                 <img src="images/1.png" alt="">
-                 <h4>Robotics - Material Handling ABB</h4>
-                 <strong>Online Course</strong>
-                 <span class="course-links"><a href="">Automobile Engineering | Robotics | Design & Development | Automotive | Diploma</a></span>
-                 <a href="" class="learn-more">Learn More</a>
-           </div>
-
-           <div class="course-desc es-civil tech-rapid-proto">
-               <img src="images/1.png" alt="">
-               <h4>Robotics - Material Handling ABB</h4>
-               <strong>Online Course</strong>
-               <span class="course-links"><a href="">Automobile Engineering | Robotics | Design & Development | Automotive | Diploma</a></span>
-               <a href="" class="learn-more">Learn More</a>
-           </div>
-
+            <div class="grid" id="courses">
+      
             </div>
          </section>
 
@@ -251,6 +220,37 @@
       <script src="js/isotope.min.js"></script>
 
       <script src="js/main.js"></script>
+
+      <!-- <script>
+         document.addEventListener("DOMContentLoaded", function(){
+
+         (function (e) {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', 'courses.json', true);
+
+            xhr.onload = function(){
+               if(this.status === 200){
+                  const courses = JSON.parse(this.responseText);
+                  let output = "";
+
+                   courses.forEach((course)=>{
+                      output += `
+                      <div class="course-desc ${course.eng_stream}">               
+                     <img src="images/1.png" alt="">
+                     <h4>${course.course_name}</strong>
+                     <span class="course-links"><a href="">Automobile Engineering | Robotics | Design & Development | Automotive | Diploma</a></span>
+                     <a href="${course.course_name}" class="learn-more">Learn More</a>                
+                     </div>
+                     `;
+                   });
+                   document.getElementById('courses').innerHTML = output;
+               }
+            }
+            xhr.send();
+         }) ();
+
+      });
+      </script> -->
 
    </body>
 </html>
