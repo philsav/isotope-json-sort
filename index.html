@@ -8,6 +8,7 @@
       <title>MTC</title>
       <!-- Bootstrap core CSS -->
       <link rel="stylesheet" href="https://use.typekit.net/euu7mab.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/js/bootstrap.bundle.js" defer></script>
       <link rel="stylesheet" href="style.css">
@@ -245,38 +246,7 @@
 
       <script src="js/isotope.min.js"></script>
 
-      <script src="js/main.js"></script>
-
-      <!-- <script>
-         document.addEventListener("DOMContentLoaded", function(){
-
-         (function (e) {
-            const xhr = new XMLHttpRequest();
-            xhr.open('GET', 'courses.json', true);
-
-            xhr.onload = function(){
-               if(this.status === 200){
-                  const courses = JSON.parse(this.responseText);
-                  let output = "";
-
-                   courses.forEach((course)=>{
-                      output += `
-                      <div class="course-desc ${course.eng_stream}">               
-                     <img src="images/1.png" alt="">
-                     <h4>${course.course_name}</strong>
-                     <span class="course-links"><a href="">Automobile Engineering | Robotics | Design & Development | Automotive | Diploma</a></span>
-                     <a href="${course.course_name}" class="learn-more">Learn More</a>                
-                     </div>
-                     `;
-                   });
-                   document.getElementById('courses').innerHTML = output;
-               }
-            }
-            xhr.send();
-         }) ();
-
-      });
-      </script> -->
+      <script src="build/app.bundle.js"></script>
 
    </body>
 </html>

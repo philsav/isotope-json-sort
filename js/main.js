@@ -100,29 +100,3 @@ document.addEventListener('DOMContentLoaded', function() {
 		});
 	});
 });
-
-// $('.reset').on('click', function() {
-// 	$('.no-results').css('display', 'none');
-// 	$('.grid').isotope({
-// 		filter: filterValue
-// 	});
-// 	//reset the dropdowns
-// 	$('select').each(function() {
-// 		$(this).val($('#' + $(this).attr('id') + ' option:first').val());
-// 	});
-// });
-
-// $('.reset').click(function() {
-// 	$('select').each(function() {
-// 		$(this).val($('#' + $(this).attr('id') + ' option:first').val());
-// 	});
-// });
-
-//hide empty
-// $('.filters').on('change', function(event) {
-// 	setTimeout(function() {
-// 		if ($('.course-desc:visible').length === 0) {
-// 			$('.no-results').css('display', 'block');
-// 		}
-// 	}, 1000);
-// });
