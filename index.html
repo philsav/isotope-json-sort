@@ -45,7 +45,7 @@
 
       <!-- Banner-->
       <section class="banner">
-         <div class="container">
+         <div class="container-fluid">
             <div class="row">
                <div class="col-md-6 col-lg-4">
                   <div class="lms">
@@ -106,10 +106,11 @@
       <div class="clearfix"></div>
 
       <!--learning-->
+      <div class="content1">
       <div class="container">
          <section class="learning">
             <div class="row">
-               <div class="col-sm-12">
+               <div class="col-md-10 mx-auto">
                   <h3>Learning Management System (LMS) and eLearning Content</h3>
                   <p>
                      MTC offers a robust Learning Management System, packaged with advanced learning courses in CNC, Robotics, Mechatronics and Automation, with over 1000 hours of rich digital content covering over 60 courses.
@@ -117,14 +118,14 @@
                </div>
             </div>
          </section>
-      </div>
 
       <div class="clearfix"></div>
 
       <!--explore-->
-      <div class="container">
-         <section class="explore">
+         <div class="explore">
             <h3>Explore Our Digital Library</h3>
+            <p>View our complete range of courses below, or refine the list by selecting an option in any of the selection boxes below.
+            </p>
             <div class="row filters">
                <div class="col-md-4">
                   <select class="filter-select" value-group="engineering-stream">
@@ -155,25 +156,50 @@
                      <option value=".jr-process-plan">Process Planning</option>
                   </select>
                </div>
-               <div class="col-md-4"></div>
-               <div class="col-md-4"></div>
-               <div class="col-md-4"></div>
+
+               <div class="col-md-4">
+                  <select class="filter-select" value-group="job-role-stream">
+                     <option value="">Industry</option>
+                     <option value=".jr-design-dev">Automotive</option>
+                     <option value=".jr-draft-detail">Electronics</option>
+                     <option value=".jr-cae">Electrical</option>
+                  </select>
+               </div>
+
+               <div class="col-md-4">
+                  <select class="filter-select" value-group="job-role-stream">
+                     <option value="">Level</option>
+                     <option value=".jr-design-dev">Vocational Skills</option>
+                     <option value=".jr-draft-detail">Diploma</option>
+                     <option value=".jr-cae">Engineering Graduate</option>
+                  </select>
+               </div>
+
+               <div class="col-md-4">
+                  <button class="btn-secondary reset" data-filter="*">Reset Values</button>
+               </div>
+
             </div>
-         </section>
+         </div>
+      </div> </div>
 
          <!--courses-->
+         <div class="content2">
+            <div class="container">
+               <p class="no-results">Sorry there are no results, try a different selection</p>
          <section class="courses">
             <div class="grid" id="courses">
       
             </div>
          </section>
 
+         <div class="clearfix"></div>
+
          <section class="footer-register">
                <a class="reg" href="">Register</a>
                <a class="login" href="">Login</a>
          </section>
-
-      </div>
+      </div> </div>    
 
       <!--footer-->
       <footer>

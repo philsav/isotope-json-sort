@@ -15,6 +15,11 @@ body {
   max-width: 1200px;
 }
 
+.container-fluid {
+  width: 100%;
+  max-width: 1440px;
+}
+
 h2 {
   font-weight: 700;
   font-size: 30px;
@@ -38,6 +43,7 @@ img {
 
 .registration {
   color: #fff;
+  font-size: 16px;
 }
 
 .registration a {
@@ -48,7 +54,7 @@ img {
   color: #fff;
   background: url("images/banner.jpg") no-repeat bottom center;
   background-size: cover;
-  padding: 30px;
+  padding: 60px 30px 90px;
 }
 
 .banner .lms {
@@ -56,11 +62,13 @@ img {
   display: -ms-flexbox;
   display: flex;
   font-size: 30px;
-  padding-bottom: 15px;
+  padding: 15px;
+  border-right: 1px solid #fff;
 }
 
 .banner .lms h2 {
   font-weight: 700;
+  font-size: 32px;
   padding-left: 15px;
   line-height: 1;
 }
@@ -78,16 +86,18 @@ img {
 .banner .banner-text h3 {
   font-weight: 100;
   font-size: 22px;
-  line-height: 1.3;
+  padding-top: 0px;
+  line-height: 1.5;
 }
 
 .banner .banner-text h3 strong {
   font-weight: 700;
+  display: block;
 }
 
 .banner form {
   background: #fff;
-  padding: 15px;
+  padding: 20px 15px;
   border-radius: 5px;
   color: #000;
   max-width: 500px;
@@ -111,43 +121,79 @@ img {
 }
 
 .banner form .form-check {
-  margin-bottom: 15px !important;
+  margin-bottom: 0px !important;
 }
 
 .banner form button {
   width: 180px;
 }
 
-.learning {
+.banner form .form-check-label {
+  margin-bottom: 30px;
+}
+
+.content1 {
+  background: url("images/bg.png") no-repeat;
+}
+
+.content1 .learning {
   background: var(--brown);
   color: #fff;
-  padding: 30px;
+  padding: 50px 30px 40px;
 }
 
-.explore {
-  padding: 60px 0px 30px;
+.content1 .explore {
+  padding: 40px 0px 30px;
 }
 
-.explore h3 {
-  padding-bottom: 30px;
+.content1 .explore h3 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 0px;
 }
 
-.explore select {
+.content1 .explore select {
   width: 100%;
   margin-bottom: 15px;
+  padding: 5px 10px;
+  border: 1px solid #d2cfcf;
+  color: #908d8d;
 }
 
-.courses {
+.content1 .explore .btn-secondary {
+  border: none;
+  background-color: #bfbaba;
+  padding: 5px 20px;
+  width: 100%;
+  -webkit-transition: 0.25s all ease;
+  transition: 0.25s all ease;
+}
+
+.content1 .explore .btn-secondary:hover {
+  background: #908d8d;
+}
+
+.content2 {
+  background: url("images/bg2.jpg") repeat;
+}
+
+.content2 .no-results {
+  display: none;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.content2 .courses {
   padding: 0 0 60px;
 }
 
-.courses .grid-item {
+.content2 .courses .grid-item {
   width: 25%;
 }
 
-.courses .course-desc {
+.content2 .courses .course-desc {
   margin: 10px;
-  background: #bbc1c7;
+  background: #ccced0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -168,7 +214,7 @@ img {
   padding-bottom: 20px;
 }
 
-.courses .course-desc h4 {
+.content2 .courses .course-desc h4 {
   color: #fff;
   background: var(--brown);
   padding: 10px 15px;
@@ -177,20 +223,17 @@ img {
   font-weight: 700;
 }
 
-.courses .course-desc strong {
+.content2 .courses .course-desc strong {
   font-size: 18px;
   color: #00538b;
 }
 
-.courses .course-desc span.course-links {
+.content2 .courses .course-desc span.course-links {
   padding: 5px 10px;
-}
-
-.courses .course-desc span.course-links a {
   color: #df0f0f;
 }
 
-.courses .course-desc a.learn-more {
+.content2 .courses .course-desc a.learn-more {
   background: #df0f0f;
   color: #fff;
   font-size: 20px;
@@ -200,7 +243,7 @@ img {
   transition: 0.25s all ease;
 }
 
-.courses .course-desc a.learn-more:hover {
+.content2 .courses .course-desc a.learn-more:hover {
   text-decoration: none;
   background: var(--blue);
 }
@@ -221,7 +264,7 @@ img {
 .footer-register a {
   display: inline-block;
   color: #000;
-  padding: 5px 0;
+  padding: 10px 0;
   font-weight: 700;
   margin: 10px;
   width: 200px;

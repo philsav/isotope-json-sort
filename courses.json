@@ -1,6 +1,6 @@
 [
 	{
-		"course_name": "Robotics - Material Handling ABB",
+		"course_name": "ZRobotics - Material Handling ABB",
 		"course_eng_stream": "es-aeronautical",
 		"course_technology": "tech-cad",
 		"course_job_roles": "jr-design-dev",
@@ -11,7 +11,7 @@
 		"course_link": "12"
 	},
 	{
-		"course_name": "Robotics - Material Handling ABB",
+		"course_name": "ARobotics - Material Handling ABB",
 		"course_eng_stream": "es-automobile",
 		"course_technology": "tech-cae",
 		"course_job_roles": "jr-design-dev",
