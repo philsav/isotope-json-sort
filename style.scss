@@ -38,7 +38,7 @@ img {
 }
 
 .navbar {
-	background-color: var(--grey);
+	background-color: #555554;
 }
 .registration {
 	color: #fff;
@@ -121,7 +121,7 @@ img {
 .content1 {
 	background: url("images/bg.png") no-repeat;
 	.learning {
-		background: var(--brown);
+		background: #843628;
 		color: #fff;
 		padding: 50px 30px 40px;
 	}
@@ -185,7 +185,7 @@ img {
 
 			h4 {
 				color: #fff;
-				background: var(--brown);
+				background: #843628;
 				padding: 10px 15px;
 				font-size: 18px;
 				text-transform: uppercase;
@@ -198,6 +198,7 @@ img {
 			span.course-links {
 				padding: 5px 10px;
 				color: #df0f0f;
+				line-height: 1.2;
 			}
 			a.learn-more {
 				background: #df0f0f;
@@ -208,7 +209,7 @@ img {
 				transition: 0.25s all ease;
 				&:hover {
 					text-decoration: none;
-					background: var(--blue);
+					background: #00538b;
 				}
 			}
 		}
@@ -262,6 +263,21 @@ footer {
 	.copyright {
 		color: #df0f0f;
 		font-size: 14px;
+	}
+}
+
+//individual course
+.ind-courses {
+	padding: 30px 0;
+	h4 {
+		font-size: 20px;
+		font-weight: 700;
+		padding: 10px 0px;
+	}
+	.courseimg {
+		img {
+			margin-bottom: 30px;
+		}
 	}
 }
 

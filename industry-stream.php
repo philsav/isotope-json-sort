@@ -1,0 +1,31 @@
+<select class="filter-select" value-group="industry-stream">
+<option value="">All Industry</option>
+<option value=".ind-adv">Advanced Manufacturing</option>
+<option value=".ind-aero">Aerospace</option>
+<option value=".ind-automa">Automation</option>
+<option value=".ind-auto">Automotive</option>
+<option value=".ind-const">Construction</option>
+<option value=".ind-desval">Design and Validation</option>
+<option value=".ind-elec">Electrical</option>
+<option value=".ind-elctron">Electronics</option>
+<option value=".ind-fmcg">FMCG</option>
+<option value=".ind-he">Heavy Engineering</option>
+<option value=".ind-im">Industrial Machinery</option>
+<option value=".ind-infotech">Information Technology</option>
+<option value=".ind-internet">Internet of Things</option>
+<option value=".ind-man">Manufacturing</option>
+<option value=".ind-mar">Marine</option>
+<option value=".ind-mech">Mechatronics</option>
+<option value=".ind-oil">Oil &amp; Gas</option>
+<option value=".ind-pharm">Pharma</option>
+<option value=".ind-pip">Piping</option>
+<option value=".ind-plast">Plastics</option>
+<option value=".ind-proind">Process Industries</option>
+<option value=".ind-proinst">Process Instrumentation</option>
+<option value=".ind-profab">Production and Fabrication</option>
+<option value=".ind-renew">Renewable Energy</option>
+<option value=".ind-robo">Robotics</option>
+<option value=".ind-switch">Switch gear</option>
+<option value=".ind-telcom">Telecom</option>
+<option value=".ind-trans">Transmission &amp; Distribution</option>
+</select>

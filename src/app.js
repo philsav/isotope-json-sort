@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 				courses.forEach((course) => {
 					output += `
-                  <div class="course-desc ${course.course_eng_stream} ${course.course_technology} ${course.course_job_roles}">               
+                 <div class="course-desc ${course.course_eng_stream} ${course.course_technology} ${course.course_job_roles}">               
                  <img src="images/${course.course_image}" alt="">
                  <h4>${course.course_name}</h4>
                  <strong>Online Course</strong>
-                 <span class="course-links">Automobile Engineering | Robotics | Design & Development | Automotive | Diploma</span>
+                 <span class="course-links">${course.course_sublinks} </span>
                  <a href="${course.course_link}" class="learn-more">Learn More</a>                
                  </div>
                  `;

@@ -38,7 +38,7 @@ img {
 }
 
 .navbar {
-  background-color: var(--grey);
+  background-color: #555554;
 }
 
 .registration {
@@ -137,7 +137,7 @@ img {
 }
 
 .content1 .learning {
-  background: var(--brown);
+  background: #843628;
   color: #fff;
   padding: 50px 30px 40px;
 }
@@ -216,7 +216,7 @@ img {
 
 .content2 .courses .course-desc h4 {
   color: #fff;
-  background: var(--brown);
+  background: #843628;
   padding: 10px 15px;
   font-size: 18px;
   text-transform: uppercase;
@@ -231,6 +231,7 @@ img {
 .content2 .courses .course-desc span.course-links {
   padding: 5px 10px;
   color: #df0f0f;
+  line-height: 1.2;
 }
 
 .content2 .courses .course-desc a.learn-more {
@@ -245,7 +246,7 @@ img {
 
 .content2 .courses .course-desc a.learn-more:hover {
   text-decoration: none;
-  background: var(--blue);
+  background: #00538b;
 }
 
 .footer-register {
@@ -309,6 +310,20 @@ footer .phone {
 footer .copyright {
   color: #df0f0f;
   font-size: 14px;
+}
+
+.ind-courses {
+  padding: 30px 0;
+}
+
+.ind-courses h4 {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 0px;
+}
+
+.ind-courses .courseimg img {
+  margin-bottom: 30px;
 }
 
 @media (min-width: 1200px) {
