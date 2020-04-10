@@ -1,7 +1,7 @@
 {
 	"course": [
 		{
-			"course_name": "ZRobotics-Material Handling ABB",
+			"course_name": "Robotics - Material Handling ABB",
 			"short_code": "",
 			"course_eng_stream": "es-auto",
 			"course_technology": "tech-robot",
@@ -9,28 +9,28 @@
 			"course_industry": "ind-auto",
 			"course_level": "lev-dip",
 			"course_image": "1.png",
-			"course_image1": "1",
-			"course_image2": "1",
-			"course_video": "",
+			"course_image2": "",
+			"course_video": "https://mtc-learning.com/pluginfile.php/488/course/summary/simulation_with_TP.mp4?time=1580805721030",
 			"course_sublinks": "Automobile Engineering | Robotics | Design & Development | Automotive |  Diploma",
 			"course_details": {
-				"industries": "<ul><li>1</li><li>2</li><li>4</li></ul>",
-				"highlights": "",
-				"technique_skills": ""
+				"duration": "60 Hours",
+				"industries": "Manufacturing, Automation, Process.",
+				"highlights": "Creating Work Cell, Creating End Effector, Attachment of End Effector, TCP Creation, Work Envelope, I/O Configuration, Programming of Material Handling Application,  Simulation of Material Handling.",
+				"technique_skills": "Robot Operation, Programming of Applications in Material Handling, Design of Simple Work Cells, Selection of Appropriate Robot and End Effector, Simulation and Prove out, Determine the Productivity, Cycle Time and Optimise Production Process."
 			},
 			"course_link": "robotics-material-handling-abb.php"
 		},
 		{
-			"course_name": "Robotics-Material Handling ABB",
+			"course_name": "Robotics - Arc Welding ABB",
 			"short_code": "",
 			"course_eng_stream": "es-auto",
 			"course_technology": "tech-robot",
 			"course_job_roles": "jr-design",
 			"course_industry": "ind-auto",
 			"course_level": "lev-dip",
-			"course_image1": "1.png",
-			"course_image2": "1",
-			"course_video": "",
+			"course_image": "2.png",
+			"course_image2": "",
+			"course_video": "https://mtc-learning.com/pluginfile.php/502/course/summary/1-Butt%20welding.mp4",
 			"course_sublinks": "Automobile Engineering | Robotics | Design & Development | Automotive |  Diploma",
 			"course_details": {
 				"industries": "<ul><li>1</li><li>2</li><li>4</li></ul>",

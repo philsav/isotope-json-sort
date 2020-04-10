@@ -1,39 +1,40 @@
 document.addEventListener('DOMContentLoaded', function() {
 	//JSON
-//	(function(e) {
-//		const xhr = new XMLHttpRequest();
-//		xhr.open('GET', 'courses.json', true);
-//
-//		xhr.onload = function() {
-//			if (this.status === 200) {
-//				const courses = JSON.parse(this.responseText);
-//				courses.sort(dynamicSort('course_name'));
-//
-//				let output = '';
-//
-//				courses.forEach((course) => {
-//					output += `
-//                 <div class="course-desc ${course.course_eng_stream} ${course.course_technology} ${course.course_job_roles} ${course.course_industry} ${course.course_level}">               
-//                 <img src="images/${course.course_image}" alt="">
-//                 <h4>${course.course_name}</h4>
-//                 <strong>Online Course</strong>
-//                 <span class="course-links">${course.course_sublinks} </span>
-//                 <a href="${course.course_link}" class="learn-more">Learn More</a>                
-//                 </div>
-//                 `;
-//				});
-//
-//				//document.querySelector('.grid').innerHTML = output;
-//			}
-//		};
-//		xhr.send();
-//	})();
+	//	(function(e) {
+	//		const xhr = new XMLHttpRequest();
+	//		xhr.open('GET', 'courses.json', true);
+	//
+	//		xhr.onload = function() {
+	//			if (this.status === 200) {
+	//				const courses = JSON.parse(this.responseText);
+	//				courses.sort(dynamicSort('course_name'));
+	//
+	//				let output = '';
+	//
+	//				courses.forEach((course) => {
+	//					output += `
+	//                 <div class="course-desc ${course.course_eng_stream} ${course.course_technology} ${course.course_job_roles} ${course.course_industry} ${course.course_level}">
+	//                 <img src="images/${course.course_image}" alt="">
+	//                 <h4>${course.course_name}</h4>
+	//                 <strong>Online Course</strong>
+	//                 <span class="course-links">${course.course_sublinks} </span>
+	//                 <a href="${course.course_link}" class="learn-more">Learn More</a>
+	//                 </div>
+	//                 `;
+	//				});
+	//
+	//				//document.querySelector('.grid').innerHTML = output;
+	//			}
+	//		};
+	//		xhr.send();
+	//	})();
 
 	//ISOTOPE init Isotope
 	function courseSort() {
 		setTimeout(function() {
 			var $grid = $('.grid').isotope({
 				itemSelector: '.course-desc',
+				layoutMode: 'fitRows',
 				filter: '*'
 			});
 
@@ -103,32 +104,27 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //get query string param
 function getParameterByName(name, url) {
-    if (!url) url = window.location.href;
-    name = name.replace(/[\[\]]/g, '\\$&');
-    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+	if (!url) url = window.location.href;
+	name = name.replace(/[\[\]]/g, '\\$&');
+	var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+		results = regex.exec(url);
+	if (!results) return null;
+	if (!results[2]) return '';
+	return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 
 //handlebars
-$(function(){
-    let coursesTemplate = $("#course-template").html();
-    let compiledCoursesTemplate = Handlebars.compile(coursesTemplate);
-    
-    var courseId = getParameterByName("id");
-    
-    
-    $.ajax("./data.json").done((allcourses) =>{
-        
-        if($("body").hasClass("page-course-details")){
-         $('#courses').html(compiledCoursesTemplate(allcourses.course[courseId])); 
+$(function() {
+	let coursesTemplate = $('#course-template').html();
+	let compiledCoursesTemplate = Handlebars.compile(coursesTemplate);
 
-        } else{
-             
-             $('#courses').html(compiledCoursesTemplate(allcourses)); 
-        }
+	var courseId = getParameterByName('id');
 
-    });
+	$.ajax('./data.json').done((allcourses) => {
+		if ($('body').hasClass('page-course-details')) {
+			$('#courses').html(compiledCoursesTemplate(allcourses.course[courseId]));
+		} else {
+			$('#courses').html(compiledCoursesTemplate(allcourses));
+		}
+	});
 });

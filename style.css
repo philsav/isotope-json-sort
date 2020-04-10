@@ -201,9 +201,9 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -212,6 +212,13 @@ img {
   max-width: 270px;
   margin: 10px;
   padding-bottom: 20px;
+  min-height: 100%;
+}
+
+.content2 .courses .course-desc img {
+  min-height: 170px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .content2 .courses .course-desc h4 {
@@ -221,6 +228,7 @@ img {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 700;
+  width: 100%;
 }
 
 .content2 .courses .course-desc strong {
@@ -312,18 +320,46 @@ footer .copyright {
   font-size: 14px;
 }
 
-.ind-courses {
+.page-course-details .ind-courses {
   padding: 30px 0;
 }
 
-.ind-courses h4 {
-  font-size: 20px;
-  font-weight: 700;
-  padding: 10px 0px;
+.page-course-details .ind-courses h2 {
+  font-size: 28px;
+  color: #f10000;
 }
 
-.ind-courses .courseimg img {
+.page-course-details .ind-courses h3 {
+  font-size: 24px;
+}
+
+.page-course-details .ind-courses h4 {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0;
+}
+
+.page-course-details .ind-courses h5 {
+  display: inline-block;
+  font-weight: 700;
+}
+
+.page-course-details .ind-courses .courseimg img {
   margin-bottom: 30px;
+}
+
+.page-course-details .footer-register {
+  display: none;
+}
+
+.page-course-details a.backlink {
+  color: #fff;
+  background: #f10000;
+  padding: 4px 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  float: right;
+  clear: both;
 }
 
 @media (min-width: 1200px) {
