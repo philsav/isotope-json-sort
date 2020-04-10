@@ -46,5 +46,6 @@
       <!--courses-->
 
   <?php include 'display-courses.php'; ?>
+  <?php include 'registration.php'; ?>
 
   <?php include 'footer.php'; ?>

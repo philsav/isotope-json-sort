@@ -1,44 +1,42 @@
 {
-   "course":[
-      {
-         "id":"0",
-         "course_name":"Robotics-Material Handling ABB",
-         "short_code":"",
-         "course_eng_stream":"es-auto",
-         "course_technology":"tech-robot",
-         "course_job_roles":"jr-design",
-         "course_industry":"ind-auto",
-         "course_level":"lev-dip",
-         "course_image":"1.png",
-         "page_image":"1",
-         "page_video":"",
-         "course_sublinks":"Automobile Engineering | Robotics | Design & Development | Automotive |  Diploma",
-         "course_details":{
-            "industries":"<ul><li>124</li></ul>",
-            "highlights":"",
-            "technique_skills":""
-         },
-         "course_link":"robotics-material-handling-abb.php"
-      },
-      {
-         "id":"1",
-         "course_name":"Robotics-Material Handling ABB",
-         "short_code":"",
-         "course_eng_stream":"es-auto",
-         "course_technology":"tech-robot",
-         "course_job_roles":"jr-design",
-         "course_industry":"ind-auto",
-         "course_level":"lev-dip",
-         "course_image":"1.png",
-         "page_image":"1",
-         "page_video":"",
-         "course_sublinks":"Automobile Engineering | Robotics | Design & Development | Automotive |  Diploma",
-         "course_details":{
-            "industries":"",
-            "highlights":"",
-            "technique_skills":""
-         },
-         "course_link":"robotics-material-handling-abb.php"
-      }
-   ]
+	"course": [
+		{
+			"course_name": "ZRobotics-Material Handling ABB",
+			"short_code": "",
+			"course_eng_stream": "es-auto",
+			"course_technology": "tech-robot",
+			"course_job_roles": "jr-design",
+			"course_industry": "ind-auto",
+			"course_level": "lev-dip",
+			"course_image": "1.png",
+			"page_image": "1",
+			"page_video": "",
+			"course_sublinks": "Automobile Engineering | Robotics | Design & Development | Automotive |  Diploma",
+			"course_details": {
+				"industries": "<ul><li>1</li><li>2</li><li>4</li></ul>",
+				"highlights": "",
+				"technique_skills": ""
+			},
+			"course_link": "robotics-material-handling-abb.php"
+		},
+		{
+			"course_name": "Robotics-Material Handling ABB",
+			"short_code": "",
+			"course_eng_stream": "es-auto",
+			"course_technology": "tech-robot",
+			"course_job_roles": "jr-design",
+			"course_industry": "ind-auto",
+			"course_level": "lev-dip",
+			"course_image": "1.png",
+			"page_image": "1",
+			"page_video": "",
+			"course_sublinks": "Automobile Engineering | Robotics | Design & Development | Automotive |  Diploma",
+			"course_details": {
+				"industries": "<ul><li>1</li><li>2</li><li>4</li></ul>",
+				"highlights": "",
+				"technique_skills": ""
+			},
+			"course_link": "robotics-material-handling-abb.php"
+		}
+	]
 }

@@ -267,17 +267,22 @@ footer {
 }
 
 //individual course
-.ind-courses {
-	padding: 30px 0;
-	h4 {
-		font-size: 20px;
-		font-weight: 700;
-		padding: 10px 0px;
-	}
-	.courseimg {
-		img {
-			margin-bottom: 30px;
+.page-course-details {
+	.ind-courses {
+		padding: 30px 0;
+		h4 {
+			font-size: 20px;
+			font-weight: 700;
+			padding: 10px 0px;
 		}
+		.courseimg {
+			img {
+				margin-bottom: 30px;
+			}
+		}
+	}
+	.footer-register {
+		display: none;
 	}
 }
 
