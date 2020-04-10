@@ -3,15 +3,17 @@
 <body class="page-course-details">
 
 <?php include 'navigation.php'; ?>
-<div class="content2">
-    <div class="container">
-    <p class="no-results">Sorry there are no results, try a different selection</p>
-    <section class="courses">
+<section class="ind-courses">
+      <div class="container">
+         <h2>About this Course</h2>
+  
         <div class="" id="courses"></div>
            
            <script id="course-template" type="text/x-handlebars-template">
+
            <div class="row">               
-          <div class="col-md-7">
+            <div class="col-md-7">
+
             <h4>{{course_name}}</h4>
 
             <h4>APPLICABLE INDUSTRIES</h4>
@@ -23,16 +25,20 @@
             <h4>TECHNIQUES AND SKILLS FOCUSED HERE</h4>
             {{course_details.technique_skills}}
             
-          </div>      
+          </div>
+
+          <div class="col-md-5">
+          <img src="" alt="">
+           </div>      
           
             </div>
            </script>
            
-       
+           </div>
     </section>
-    <div class="clearfix"></div>
 
+  <div class="clearfix"></div>
 
   <?php include 'no-register.php'; ?>
 
-   <?php include 'footer.php'; ?>
+  <?php include 'footer.php'; ?>

@@ -7,7 +7,7 @@
            <script id="course-template" type="text/x-handlebars-template">
            {{#each course}}
            <div class="course-desc {{course_eng_stream}}">               
-                 <img src="images/1.png" alt="">
+                 <img src="images/{{course_image1}}" alt="">
                  <h4>{{course_name}}</h4>
                  <strong>Online Course</strong>
                  <span class="course-links">{{course_sublinks}}</span>
