@@ -13,7 +13,7 @@
                  <span class="course-links">{{course_sublinks}}</span>
                  <a href="./course-details.php?id={{@index}}" class="learn-more">Learn More</a> 
                 <!-- <p> {{#if page_image}}{{page_image}}{{else}}unknown{{/if}}</p> -->
-            </div>
+            </div><br/>
             {{/each}}
            </script>
            

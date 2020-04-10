@@ -2,7 +2,6 @@
 	"course": [
 		{
 			"course_name": "Robotics - Material Handling ABB",
-			"short_code": "",
 			"course_eng_stream": "es-auto",
 			"course_technology": "tech-robot",
 			"course_job_roles": "jr-design",
@@ -17,12 +16,10 @@
 				"industries": "Manufacturing, Automation, Process.",
 				"highlights": "Creating Work Cell, Creating End Effector, Attachment of End Effector, TCP Creation, Work Envelope, I/O Configuration, Programming of Material Handling Application,  Simulation of Material Handling.",
 				"technique_skills": "Robot Operation, Programming of Applications in Material Handling, Design of Simple Work Cells, Selection of Appropriate Robot and End Effector, Simulation and Prove out, Determine the Productivity, Cycle Time and Optimise Production Process."
-			},
-			"course_link": "robotics-material-handling-abb.php"
+			}
 		},
 		{
 			"course_name": "Robotics - Arc Welding ABB",
-			"short_code": "",
 			"course_eng_stream": "es-auto",
 			"course_technology": "tech-robot",
 			"course_job_roles": "jr-design",
@@ -33,11 +30,47 @@
 			"course_video": "https://mtc-learning.com/pluginfile.php/502/course/summary/1-Butt%20welding.mp4",
 			"course_sublinks": "Automobile Engineering | Robotics | Design & Development | Automotive |  Diploma",
 			"course_details": {
-				"industries": "<ul><li>1</li><li>2</li><li>4</li></ul>",
-				"highlights": "",
-				"technique_skills": ""
-			},
-			"course_link": "robotics-material-handling-abb.php"
+				"duration": "60 Hours",
+				"industries": "Manufacturing, Automation, Process",
+				"highlights": "Creating Work Cell, Creating End Effector, Attachment of End Effector, TCP Creation, Work Envelope, I/O Configuration, Programming of Arc Welding Application, Simulation of Arc Welding Application, Process Parameters of Welding, Torch Angle and its Importance, Arc Welding Commands, Torch Cleaning, Auto TCP Calculation, Maintenance",
+				"technique_skills": "Robot Operation, Programming of Applications in Arc, Welding, Design of Simple Work Cells, Selection of Appropriate Robot and End, Effector, Simulation and Prove out, Determine the Productivity, Cycle Time and Optimise Production Process"
+			}
+		},
+		{
+			"course_name": "Robotics - Spot Welding ABB",
+			"course_eng_stream": "es-auto",
+			"course_technology": "tech-robot",
+			"course_job_roles": "jr-design",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "3.png",
+			"course_image2": "",
+			"course_video": "https://mtc-learning.com/pluginfile.php/512/course/summary/M4%20-%20Spot%20welding.mp4",
+			"course_sublinks": "Automobile Engineering | Robotics | Design & Development | Automotive |  Vocational",
+			"course_details": {
+				"duration": "60 Hours",
+				"industries": "Manufacturing, Automation, Process",
+				"highlights": "Creating Work Cell, Creating End Effector, Attachment of End Effector, TCP Creation, Work Envelope, I/O Configuration, Programming of Arc Welding Application, Simulation of Arc Welding Application, Process Parameters of Welding, Torch Angle and its Importance, Arc Welding Commands, Torch Cleaning, Auto TCP Calculation, Maintenance",
+				"technique_skills": "Robot Operation, Programming of Applications in Arc, Welding, Design of Simple Work Cells, Selection of Appropriate Robot and End, Effector, Simulation and Prove out, Determine the Productivity, Cycle Time and Optimise Production Process"
+			}
+		},
+		{
+			"course_name": "Automation - Basic Pneumatics",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-design",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "4.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Mechatronics | Design & Development | Automotive | Vocational Skills",
+			"course_details": {
+				"duration": "8 Hours",
+				"industries": "Automotive, Manufacturing, Automation, Construction, Heavy Engineering, General Engineering, Process Industries",
+				"highlights": "Basics of Pneumatics, Construction of Components, Working Principle of Components, Properties of Components, Safety",
+				"technique_skills": "Create Simple Pneumatic Circuits, Selection of Components, Connections and Simulation of Circuits, Reading of Pneumatic Drawings, Application of Simple Pneumatic Circuits, Simulation of Pneumatic Circuits"
+			}
 		}
 	]
 }

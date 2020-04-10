@@ -212,11 +212,12 @@ img {
   max-width: 270px;
   margin: 10px;
   padding-bottom: 20px;
-  min-height: 100%;
 }
 
 .content2 .courses .course-desc img {
   min-height: 170px;
+  max-height: 170px;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -247,7 +248,7 @@ img {
   color: #fff;
   font-size: 20px;
   padding: 3px 20px;
-  margin: 10px;
+  margin: auto 10px 10px;
   -webkit-transition: 0.25s all ease;
   transition: 0.25s all ease;
 }
@@ -321,7 +322,7 @@ footer .copyright {
 }
 
 .page-course-details .ind-courses {
-  padding: 30px 0;
+  padding: 30px 30px 60px;
 }
 
 .page-course-details .ind-courses h2 {
@@ -360,6 +361,13 @@ footer .copyright {
   display: inline-block;
   float: right;
   clear: both;
+  -webkit-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+
+.page-course-details a.backlink:hover {
+  background: #00538b;
+  text-decoration: none;
 }
 
 @media (min-width: 1200px) {

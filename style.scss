@@ -179,10 +179,11 @@ img {
 			max-width: 270px;
 			margin: 10px;
 			padding-bottom: 20px;
-			min-height: 100%;
 
 			img {
 				min-height: 170px;
+				max-height: 170px;
+				width: 100%;
 				object-fit: cover;
 			}
 			h4 {
@@ -208,7 +209,7 @@ img {
 				color: #fff;
 				font-size: 20px;
 				padding: 3px 20px;
-				margin: 10px;
+				margin: auto 10px 10px;
 				transition: 0.25s all ease;
 				&:hover {
 					text-decoration: none;
@@ -272,7 +273,7 @@ footer {
 //individual course
 .page-course-details {
 	.ind-courses {
-		padding: 30px 0;
+		padding: 30px 30px 60px;
 		h2 {
 			font-size: 28px;
 			color: #f10000;
@@ -306,6 +307,11 @@ footer {
 		display: inline-block;
 		float: right;
 		clear: both;
+		transition: 0.2s ease all;
+		&:hover {
+			background: #00538b;
+			text-decoration: none;
+		}
 	}
 }
 

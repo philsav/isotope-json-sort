@@ -100,31 +100,43 @@ document.addEventListener('DOMContentLoaded', function() {
 			$(this).val($('#' + $(this).attr('id') + ' option:first').val());
 		});
 	});
-});
 
-//get query string param
-function getParameterByName(name, url) {
-	if (!url) url = window.location.href;
-	name = name.replace(/[\[\]]/g, '\\$&');
-	var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-		results = regex.exec(url);
-	if (!results) return null;
-	if (!results[2]) return '';
-	return decodeURIComponent(results[2].replace(/\+/g, ' '));
-}
+	//get query string param
+	function getParameterByName(name, url) {
+		if (!url) url = window.location.href;
+		name = name.replace(/[\[\]]/g, '\\$&');
+		var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+			results = regex.exec(url);
+		if (!results) return null;
+		if (!results[2]) return '';
+		return decodeURIComponent(results[2].replace(/\+/g, ' '));
+	}
 
-//handlebars
-$(function() {
+	//handlebars
 	let coursesTemplate = $('#course-template').html();
 	let compiledCoursesTemplate = Handlebars.compile(coursesTemplate);
 
 	var courseId = getParameterByName('id');
 
 	$.ajax('./data.json').done((allcourses) => {
+		var sortedByName = allcourses.course.sort((a, b) => (a.course_name > b.name ? 1 : -1));
+		allcourses.course = sortedByName;
+
 		if ($('body').hasClass('page-course-details')) {
 			$('#courses').html(compiledCoursesTemplate(allcourses.course[courseId]));
 		} else {
 			$('#courses').html(compiledCoursesTemplate(allcourses));
 		}
 	});
+
+	//equal height
+	setTimeout(() => {
+		var maxHeight = 0;
+		$('.course-desc').each(function() {
+			if ($(this).height() > maxHeight) {
+				maxHeight = $(this).height();
+			}
+		});
+		$('.course-desc').height(maxHeight);
+	}, 0);
 });
