@@ -119,7 +119,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	var courseId = getParameterByName('id');
 
 	$.ajax('./data.json').done((allcourses) => {
-		var sortedByName = allcourses.course.sort((a, b) => (a.course_name > b.name ? 1 : -1));
+		var sortedByName = allcourses.course.sort((a, b) => (a.course_name > b.course_name ? 1 : -1));
+
 		allcourses.course = sortedByName;
 
 		if ($('body').hasClass('page-course-details')) {
@@ -138,5 +139,5 @@ document.addEventListener('DOMContentLoaded', function() {
 			}
 		});
 		$('.course-desc').height(maxHeight);
-	}, 0);
+	}, 1000);
 });

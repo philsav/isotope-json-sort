@@ -11,7 +11,7 @@
                   </div>
                </div>
                <div class="col-md-6 col-lg-5 banner-text">
-                  <h3>DeliverAA powerful learning every step of the way. <strong>World-class Learning Management System (LMS) with online courses on Advanced Manufacturing Technologies.</strong></h3>
+                  <h3>Deliver powerful learning every step of the way. <strong>World-class Learning Management System (LMS) with online courses on Advanced Manufacturing Technologies.</strong></h3>
                </div>
                <div class="col-lg-3 align-items-center justify-content-center">
                   <form>

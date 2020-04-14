@@ -4,6 +4,10 @@
   --blue: #00538b;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: calibri, sans-serif;
   font-size: 18px;
@@ -134,6 +138,7 @@ img {
 
 .content1 {
   background: url("images/bg.png") no-repeat;
+  background-size: cover;
 }
 
 .content1 .learning {
@@ -238,7 +243,7 @@ img {
 }
 
 .content2 .courses .course-desc span.course-links {
-  padding: 5px 10px;
+  padding: 5px 10px 15px;
   color: #df0f0f;
   line-height: 1.2;
 }
@@ -248,7 +253,7 @@ img {
   color: #fff;
   font-size: 20px;
   padding: 3px 20px;
-  margin: auto 10px 10px;
+  margin: auto 10px 5px;
   -webkit-transition: 0.25s all ease;
   transition: 0.25s all ease;
 }
@@ -322,7 +327,7 @@ footer .copyright {
 }
 
 .page-course-details .ind-courses {
-  padding: 30px 30px 60px;
+  padding: 30px;
 }
 
 .page-course-details .ind-courses h2 {

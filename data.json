@@ -2,6 +2,7 @@
 	"course": [
 		{
 			"course_name": "Robotics - Material Handling ABB",
+			"course_type": "Online Course",
 			"course_eng_stream": "es-auto",
 			"course_technology": "tech-robot",
 			"course_job_roles": "jr-design",
@@ -20,6 +21,7 @@
 		},
 		{
 			"course_name": "Robotics - Arc Welding ABB",
+			"course_type": "Online Course",
 			"course_eng_stream": "es-auto",
 			"course_technology": "tech-robot",
 			"course_job_roles": "jr-design",
@@ -38,6 +40,7 @@
 		},
 		{
 			"course_name": "Robotics - Spot Welding ABB",
+			"course_type": "Online Course",
 			"course_eng_stream": "es-auto",
 			"course_technology": "tech-robot",
 			"course_job_roles": "jr-design",
@@ -46,7 +49,7 @@
 			"course_image": "3.png",
 			"course_image2": "",
 			"course_video": "https://mtc-learning.com/pluginfile.php/512/course/summary/M4%20-%20Spot%20welding.mp4",
-			"course_sublinks": "Automobile Engineering | Robotics | Design & Development | Automotive |  Vocational",
+			"course_sublinks": "Automobile Engineering | Robotics | Design & Development | Automotive |  Vocational Skills",
 			"course_details": {
 				"duration": "60 Hours",
 				"industries": "Manufacturing, Automation, Process",
@@ -56,6 +59,7 @@
 		},
 		{
 			"course_name": "Automation - Basic Pneumatics",
+			"course_type": "Online Course",
 			"course_eng_stream": "es-aero",
 			"course_technology": "tech-mech",
 			"course_job_roles": "jr-design",
@@ -70,6 +74,690 @@
 				"industries": "Automotive, Manufacturing, Automation, Construction, Heavy Engineering, General Engineering, Process Industries",
 				"highlights": "Basics of Pneumatics, Construction of Components, Working Principle of Components, Properties of Components, Safety",
 				"technique_skills": "Create Simple Pneumatic Circuits, Selection of Components, Connections and Simulation of Circuits, Reading of Pneumatic Drawings, Application of Simple Pneumatic Circuits, Simulation of Pneumatic Circuits"
+			}
+		},
+		{
+			"course_name": "Robotics - Introduction",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-auto",
+			"course_technology": "tech-robot",
+			"course_job_roles": "jr-design",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "5.png",
+			"course_image2": "",
+			"course_video": "https://mtc-learning.com/pluginfile.php/529/course/summary/1-%20Introduction%20to%20robotics.mp4",
+			"course_sublinks": "Automobile Engineering | Robotics | Design & Development | Automotive | Vocational Skills",
+			"course_details": {
+				"duration": "40 Hours",
+				"industries": "Manufacturing, Automation, Process",
+				"highlights": "Introduction, Basics of Robots, Anatomy of Robots, Types, Frame and its Types, Work Envelope, End Effectors, Transmission Elements, Control System, Basics of Robotics Programming",
+				"technique_skills": "Basics of hardware, Control System, Types of Robots, Various Robotics Applications."
+			}
+		},
+		{
+			"course_name": "Automation - Basic Electro Pneumatics",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "6.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Mechatronics | Application Engineer | Automotive | Vocational Skills  ",
+			"course_details": {
+				"duration": "8 Hours",
+				"industries": "",
+				"highlights": "",
+				"technique_skills": "Basics of Electro Pneumatics, Construction of Components, Working Principle of Components, Properties of Components, Safety, Reading of Electro Pneumatic Drawings, Application of Simple Electro Pneumatic, Circuits, Simulation of Electro Pneumatic Circuits, TECHNIQUES AND SKILLS FOCUSED HERE, Create Simple Electro Pneumaic Circuits, Selection of Components, Connections and Simulation of Circuits"
+			}
+		},
+		{
+			"course_name": "Automation - Advanced Pneumatics",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-engrad",
+			"course_image": "7.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Mechatronics | Application Engineer | Automotive | Engineering Graduate",
+			"course_details": {
+				"duration": "16 Hours",
+				"industries": "",
+				"highlights": "Functions of Pneumatics, Characteristics of Compressed Air, Characteristics of Cylinder Performance, Characteristics of Valves, Application of Advance Pneumatic Circuits, Cascading Circuits, Limit Switch Applications, Shuttle Valves, Measuring Instruments",
+				"technique_skills": "Create Advanced Pneumatic Circuits, Cascading Applications, Shuttle and Valve Applications, Time Delay Circuits, Dynamic Measuring Instruments."
+			}
+		},
+		{
+			"course_name": "Automation - Advanced Electro pneumatics",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-engrad",
+			"course_image": "8.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Mechatronics | Application Engineer | Automotive | Engineering Graduate",
+			"course_details": {
+				"duration": "16 Hours",
+				"industries": "",
+				"highlights": "Functions of Pneumatics, Characteristics of Compressed Air, Characteristics of Cylinder Performance, Characteristics of Valves, Application of Advance Pneumatic Circuits, Cascading Circuits, Limit Switch Applications, Shuttle Valves, Measuring Instruments",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "CNC Operations Machining Center - Fanuc",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-man",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-sup",
+			"course_image": "9.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Manufacturing | Application Engineer | Automotive | Supervisor ",
+			"course_details": {
+				"duration": "",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "Machine Operations of Machining Center, Safety in Machine Operations, Mounting of Work Holding Devices, Mounting of Cutting Tools, Machine Operations- Jog,Rapid,MDI,Auto,SBK, Loading / Unloading of Parts, Creating Part Program, Simulation of Part Program, Work Offset, Tool Length Offset, Wear Offset, Machining of Sample Part Program",
+				"technique_skills": "Basic CNC Machine Operation, Work Offse, Tool Offset, Wear Offset, Ability to Operate CNC, Machine Setting of the CNC, Job Loading Unloading, Daily Maintenance of CNC Machin, Routine Maintenance of CNC Machin"
+			}
+		},
+		{
+			"course_name": "CNC Operations Machining Center - Basics",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-man",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-engrad",
+			"course_image": "10.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Manufacturing | Application Engineer | Automotive | Engineering Graduate",
+			"course_details": {
+				"duration": "",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "Machine Operations of Machining Center, Safety in Machine Operations, Mounting of Work Holding Devices, Mounting of Cutting Tools, Machine Operations- Jog,Rapid,MDI,Auto,SBK, Loading / Unloading of Parts, Creating Part Program, Simulation of Part Program, Work Offset, Tool Length Offset, Wear Offset, Machining of Sample Part Program",
+				"technique_skills": "Basic CNC Machine Operation, Work Offse, Tool Offset, Wear Offset, Ability to Operate CNC, Machine Setting of the CNC, Job Loading Unloading, Daily Maintenance of CNC Machin, Routine Maintenance of CNC Machine"
+			}
+		},
+		{
+			"course_name": "CNC Operations Machining Center - Siemens",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-man",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-engrad",
+			"course_image": "11.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Manufacturing | Application Engineer | Automotive | Engineering Graduate",
+			"course_details": {
+				"duration": "120 Hours",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "",
+				"technique_skills": "Basic CNC Machine Operation, Work Offse, Tool Offset, Wear Offset, Ability to Operate CNC, Machine Setting of the CNC, Job Loading Unloading, Daily Maintenance of CNC Machin, Routine Maintenance of CNC Machine"
+			}
+		},
+		{
+			"course_name": "CNC Machining Center Commissioning",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-man",
+			"course_job_roles": "jr-ie",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "12.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Manufacturing | Industrial Engineer | Automotive | Vocational Skills ",
+			"course_details": {
+				"duration": "60 Hours",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "Commissioning of Turning Center, Safety in Commissioning, Machine Loading / Unloading, Machine Leveling, Machine Assembly - Coolant Tank, Lubrication, Chip Tray, Stabiliser Connections Transformer Connections, Machine Power Connections, Machine Power Up, Machine Test Run, Machining Sample Components",
+				"technique_skills": "CNC Machine Commissioning, Basic CNC Machine Operation, Work Offse, Tool Offset, Wear Offset, Ability to Operate CNC Machine, Setting of the CNC Job Loading Unloading, Daily Maintenance of CNC Machine, Routine Maintenance of CNC machine"
+			}
+		},
+		{
+			"course_name": "CNC Operations Turning Center - Fanuc",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-man",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-engrad",
+			"course_image": "13.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Manufacturing | Application Engineer | Automotive | Engineering Graduate",
+			"course_details": {
+				"duration": "",
+				"industries": "Machine Operations of Turning Center, Safety in Machine Operations, Mounting of Work Holding Devices, Mounting of Cutting Tools, Machine Operations- Jog,Rapid,MDI,Auto,SBK, Loading / Unloading of Parts, Creating Part Program, Simulation of Part Program, Work Offset, Tool Length Offset, Wear Offset, Machining of Sample Part Program",
+				"highlights": "Machine Operations of Turning Center, Safety in Machine Operations, Mounting of Work Holding Devices, Mounting of Cutting Tools, Machine Operations- Jog,Rapid,MDI,Auto,SBK, Loading / Unloading of Parts, Creating Part Program, Simulation of Part Program, Work Offset, Tool Length Offset, Wear Offset, Machining of Sample Part Program",
+				"technique_skills": "Basic CNC Machine Operation, Work Offse, Tool Offset, Wear Offset, Ability to Operate CNC, Machine Setting of the CNC, Job Loading Unloading, Daily Maintenance of CNC Machin, Routine Maintenance of CNC Machine"
+			}
+		},
+		{
+			"course_name": "CNC Operations Turning Center - Basic",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-man",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-engrad",
+			"course_image": "14.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Manufacturing | Application Engineer | Automotive | Engineering Graduate",
+			"course_details": {
+				"duration": "120 Hours",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "Machine Operations of Turning Center,  Safety in Machine Operations, Mounting of Work Holding Devices, Mounting of Cutting Tools, Machine Operations- Jog,Rapid,MDI,Auto,SBK, Loading / Unloading of Parts, Creating Part Program, Simulation of Part Program, Work Offset, Tool Length Offset, Wear Offset, Machining of Sample Part Program",
+				"technique_skills": "Basic CNC Machine Operation, Work Offse, Tool Offset, Wear Offset, Ability to Operate CNC, Machine Setting of the CNC, Job Loading Unloading, Daily Maintenance of CNC Machin, Routine Maintenance of CNC Machine"
+			}
+		},
+		{
+			"course_name": "CNC Operations Turning Center - Siemens",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-mar",
+			"course_level": "lev-engrad",
+			"course_image": "15.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Manufacturing | Application Engineer | Marine | Engineering Graduate",
+			"course_details": {
+				"duration": "120 Hours",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "Machine Operations of Turning Center, Safety in Machine Operations,Mounting of Work Holding Devices,Mounting of Cutting Tools,Machine Operations- Jog,Rapid,MDI,Auto,SBK,Loading / Unloading of Parts,Creating Part Program,Simulation of Part Program,Work Offset,Tool Length Offset,Wear Offset,Machining of Sample Part Program",
+				"technique_skills": "Basic CNC Machine Operation, Work Offset, Tool Offset, Wear Offset, Ability to Operate CNC, Machine Setting of the CNC, Job Loading Unloading, Daily Maintenance of CNC Machine, Routine Maintenance of CNC Machine"
+			}
+		},
+		{
+			"course_name": "CNC Turning Center Commissioning",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-man",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "16.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Manufacturing | Application Engineer | Automotive | Vocational Skills",
+			"course_details": {
+				"duration": "60 Hours",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "Commissioning of Turning Center,  Safety in Commissioning, Machine Loading / Unloading, Machine Leveling, Machine Assembly - Coolant Tank, Lubrication, Chip Tray, Stabiliser Connections Transformer Connections, Machine Power Connections, Machine Power Up, Machine Test Run, Machining Sample Components",
+				"technique_skills": "CNC Machine Commissioning, Basic CNC Machine Operation, Tool Offset, Wear Offset, Ability to Operate CNC Machine, Setting of the CNC Job Loading Unloading, Daily Maintenance of CNC Machine, Routine Maintenance of CNC machine"
+			}
+		},
+		{
+			"course_name": "CNC Milling - Demo",
+			"course_type": "Online Course",
+			"course_eng_stream": "",
+			"course_technology": "tech-man",
+			"course_job_roles": "",
+			"course_industry": "",
+			"course_level": "",
+			"course_image": "17.png",
+			"course_image2": "18.png",
+			"course_video": "",
+			"course_sublinks": "Manufacturing",
+			"course_details": {
+				"duration": " Hours",
+				"industries": "",
+				"highlights": "",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "CNC Milling - Fanuc",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-man",
+			"course_job_roles": "jr-design",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "19.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Manufacturing | Process Planning | Automotive | Vocational Skills",
+			"course_details": {
+				"duration": "120 Hours",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "G codes and M code Functions, Program Format, Coordinate Geometry, Blueprint Reading of Engineering Drawing, Geometric Dimensioning & Tolerance, Functions of Fanuc Controls, Various Modes of Operation in Fanuc Control, Application of Canned Cycles, Tool Radius Compensation, Cutting Tools and its parameters, Simulation of Part Program",
+				"technique_skills": "Ability to use FANUC Milling control, Ability to program certain range of applications, Ability to set programming parameters"
+			}
+		},
+		{
+			"course_name": "CNC Milling SIEMENS - Demo",
+			"course_type": "Online Course",
+			"course_eng_stream": "",
+			"course_technology": "tech-man",
+			"course_job_roles": "",
+			"course_industry": "",
+			"course_level": "",
+			"course_image": "20.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Manufacturing",
+			"course_details": {
+				"duration": "",
+				"industries": "",
+				"highlights": "",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "CNC Milling SIEMENS",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-man",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "21.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Manufacturing | Application Engineer | Automotive | Vocational Skill",
+			"course_details": {
+				"duration": "120 Hours",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "G codes and M code Functions, Program Format, Coordinate Geometry, Blueprint Reading of Engineering Drawing, Geometric Dimensioning & Tolerance, Functions of Siemens Controls, Various Modes of Operation in Siemens Control, Application of Canned Cycles, Tool Radius Compensation, Cutting Tools and its parameters, Simulation of Part Program",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "CNC Milling - Basics",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-man",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "22.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Manufacturing | Application Engineer | Automotive | Vocational Skills",
+			"course_details": {
+				"duration": "120 Hours",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "G Code and M Code Functions, Program Format, Coordinate Geometry, BluePrint Reading of Engineering Drawing, Geometric Dimensioning & Tolerance, Functions of ISO Controls, Various Modes of Operation in ISO Control, Application of Canned Cycles, Tool Radius Compensation",
+				"technique_skills": "Blueprint Reading, ISO Programming, Selection of Cutting Tools and Work Holding, Devices"
+			}
+		},
+		{
+			"course_name": "CNC Turning - Demo",
+			"course_type": "Online Course",
+			"course_eng_stream": "",
+			"course_technology": "tech-man",
+			"course_job_roles": "",
+			"course_industry": "",
+			"course_level": "",
+			"course_image": "23.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Manufacturing",
+			"course_details": {
+				"duration": "",
+				"industries": "",
+				"highlights": "",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "CNC Turning - Fanuc",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-man",
+			"course_job_roles": "jr-pp",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "24.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Manufacturing | Process Planning | Automotive | Vocational Skills",
+			"course_details": {
+				"duration": "120 Hours",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "G codes and M code Functions, Program Format, Coordinate Geometry, Blueprint Reading of Engineering Drawing, Geometric Dimensioning & Tolerance, Functions of Fanuc Controls, Various Modes of Operation in Fanuc Control, Application of Canned Cycles, Tool Nose Radius Compensation, Cutting Tools and its parameters, Simulation of Part Program",
+				"technique_skills": "Ability to use FANUC turning control, Ability to program certain range of applications, Ability to set programming parameters"
+			}
+		},
+		{
+			"course_name": "CNC Turning SIEMENS",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-man",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "25.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Manufacturing | Application Engineer | Automotive | Vocational Skills",
+			"course_details": {
+				"duration": " Hours",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "G Code and M Code Functions, Program Format, Coordinate Geometry, Blue Print Reading of Engg Drawing, Geometric Dimensioning & Toleranc, Functions of Siemens Controls Various Modes of Operation in Siemens Control, Application of Siemens Canned Cycles, Tool Nose Radius Compensation Cutting Tools and its Parameters, Creating Part Program, Simulation of Part Program",
+				"technique_skills": "Ability to use Siemens turning control, Ability to program certain range of applications, Ability to set programming parameters"
+			}
+		},
+		{
+			"course_name": "CNC Turning SIEMENS - Demo",
+			"course_type": "Online Course",
+			"course_eng_stream": "",
+			"course_technology": "tech-man",
+			"course_job_roles": "",
+			"course_industry": "",
+			"course_level": "",
+			"course_image": "26.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Manufacturing",
+			"course_details": {
+				"duration": "",
+				"industries": "",
+				"highlights": "",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "CNC Turning - Basics",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-man",
+			"course_job_roles": "jr-pp",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "27.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Manufacturing | Process Planning | Automotive | Vocational Skills",
+			"course_details": {
+				"duration": "120 Hours",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "G Code and M Code Functions, Program Format, Coordinate Geometry, BluePrint Reading of engineering Drawing, Geometric Dimensioning & Tolerance, Functions of ISO Controls, Various Modes of Operation in ISO Control, Application of Canned Cycles, Tool Nose Radius Compensation, Cutting Tools and its Parameters, Simulation of Part Program,",
+				"technique_skills": "Blueprint Reading, ISO Programming, Selection of Cutting Tools and Work Holding, Devices"
+			}
+		},
+		{
+			"course_name": "ECNC Mitsubishi Milling",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-man",
+			"course_job_roles": "jr-pp",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "28.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Manufacturing | Process Planning | Automotive | Vocational Skill",
+			"course_details": {
+				"duration": "120 Hours",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "G codes and M code Functions, Program Format, Coordinate Geometry, Blueprint Reading of Engineering Drawing, Geometric Dimensioning & Tolerance, Functions of Fanuc Controls, Various Modes of Operation in Fanuc Control, Application of Canned Cycles, Tool Nose Radius Compensation, Cutting Tools and its parameters, Simulation of Part Program",
+				"technique_skills": "Ability to use Mitsubishi Milling control, Ability to program certain range of applications, Ability to set programming parameters "
+			}
+		},
+		{
+			"course_name": "ECNC Mitsubishi Turning",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-man",
+			"course_job_roles": "jr-pp",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "29.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Manufacturing | Process Planning | Automotive | Vocational Skills",
+			"course_details": {
+				"duration": "120 Hours",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "G codes and M code Functions, Program Format, Coordinate Geometry, Blueprint Reading of Engineering Drawing, Geometric Dimensioning & Tolerance, Functions of Fanuc Controls, Various Modes of Operation in Fanuc Control, Application of Canned Cycles, Tool Nose Radius Compensation, Cutting Tools and its parameters, Simulation of Part Program",
+				"technique_skills": "Ability to use Mitsubishi Turning control, Ability to program certain range of applications, Ability to set programming parameters "
+			}
+		},
+		{
+			"course_name": "Automation - Basic Hydraulics",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-emm",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "30.jpg",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Mechatronics | Equipment / Machine Maintenance (Periodic, General) | Automotive | Vocational Skills",
+			"course_details": {
+				"duration": "16 Hours",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "Basics of Hydraulics, Construction of Components, Working Principle of Components, Properties of Component, Safety Reading of Hydraulic Drawings, Application of Simple Hydraulic Circuits, Simulation of Hydraulic Circuits",
+				"technique_skills": "Create Simple Hydraulic Circuits, Selection of Components Connections and, Simulation of Circuits."
+			}
+		},
+		{
+			"course_name": "Automation - Basic Electro Hydraulics",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "31.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Mechatronics | Application Engineer | Automotive | Vocational Skills",
+			"course_details": {
+				"duration": "16 Hours",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "Basics of Electro Hydraulics, Construction of Components, Working Principle of Components, Properties of Components, Safety, Reading of Electro Hydraulic Drawings, Application of Simple Electro Hydraulic Circuits, Simulation of Electro Hydraulic Circuits",
+				"technique_skills": "Create Simple Electro Hydraulic Circuits, Selection of Components Connections and Simulation of Circuits."
+			}
+		},
+		{
+			"course_name": "Automation - Advanced Hydraulics",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-engrad",
+			"course_image": "32.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Mechatronics | Application Engineer | Automotive | Engineering Graduate",
+			"course_details": {
+				"duration": "40 Hours",
+				"industries": "Automotive, Manufacturing, Automation, Construction, Heavy Engineering, General Engineering, Process Industries",
+				"highlights": "Characteristics of Hydraulic Fluid, Characteristics of Cylinder Performance, Characteristics of Valves, Application of Advanced Hydraulic Circuits, Cascading Circuits, Limit Switch, Applications Shuttle Valves, Measuring Instruments",
+				"technique_skills": "Create Advanced Hydraulic Circuits – Cascading Applications, Shuttle and Valve Applications, Time Delay Measuring Instruments"
+			}
+		},
+		{
+			"course_name": "Automation - Proportional Hydraulics",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-engrad",
+			"course_image": "33.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Mechatronics | Application Engineer | Automotive | Engineering Graduate",
+			"course_details": {
+				"duration": "40 Hours",
+				"industries": "Automotive, Manufacturing, Automation, Construction, Heavy Engineering, General Engineering, Process Industries",
+				"highlights": "Functions of Proportional Hydraulics, Components of Proportional Hydraulics, Signal Flow of Proportional Hydraulics, Design and Operation of Proportional Solenoid, Proportional Pump, Proportional Directional Control Valve, Proportional Flow Regulator, Valve Joy Stick with Multi Actuator Control",
+				"technique_skills": "Create Advanced Proportional Hydraulic, Circuits – Joy Stick with Multi Actuator Control Applications"
+			}
+		},
+		{
+			"course_name": "Automation - Electrical Circuits",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-elec",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "34.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Electrical Drives | Application Engineer | Automotive | Vocational Skills ",
+			"course_details": {
+				"duration": "16 Hours",
+				"industries": "Automotive, Manufacturing, Automation, Construction, Heavy Engineering, General Engineering, Process Industries",
+				"highlights": "Basics of Electricals, Electricity, Electrical Terminologies, Parallel Circuits, Series Circuits, Study of Electrical Components -Motors, Resisters,, Capacitor, Rectifier, Transformers, Applications of Basic Electrical Circuits",
+				"technique_skills": "Understand the Various Electrical, Components and its Applications"
+			}
+		},
+		{
+			"course_name": "Automation - Sensors - Types and Applications",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-elec",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "35.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Electrical Drives | Application Engineer | Automotive | Vocational Skills",
+			"course_details": {
+				"duration": "40 Hours",
+				"industries": "Automotive, Manufacturing, Automation, Construction, Heavy Engineering, General Engineering, Process Industries",
+				"highlights": "Basics of Electricals, Basics of Electronics , Input Devices , Output Devices , Types of Sensors , Working Principle , Properties , Application of Various Sensors , Simple Circuit Design using Sensors",
+				"technique_skills": "Understand the Sensors, its Types, Applications and Design of Simple circuits."
+			}
+		},
+		{
+			"course_name": "Automation - Digital Electronics",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-elec",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-tech",
+			"course_image": "36.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Automobile Engineering | Electrical Drives | Application Engineer | Automotive | Technician",
+			"course_details": {
+				"duration": "16 Hours",
+				"industries": "Automotive, Manufacturing, Automation, Heavy Engineering, General Engineering, Process Industries",
+				"highlights": "Number System, Types of Number System, Conversion of Number System, BCD Conversion, Arithmetic Circuits, Logic Circuits, Flip Flops, Seven Segment Display, Application of Digital Electronic Circuits",
+				"technique_skills": "Select Wire, Test, and Troubleshooting of electronic circuits"
+			}
+		},
+		{
+			"course_name": "Automation - Switch Gears - Introduction",
+			"course_type": "Classroom Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-elec",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "37.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Electrical Drives | Application Engineer | Automotive | Vocational Skills",
+			"course_details": {
+				"duration": "40 Hours",
+				"industries": "Automotive, Manufacturing, Automation, Construction, Heavy Engineering, General Engineering, Process Industries",
+				"highlights": "Basics of Switch Gears, Applications of Switch Gears (LV, MV & HV), Properties, Working Principle, Wiring of Switch Gears, Operation, Testing, Troubleshooting",
+				"technique_skills": "Electrical Circuits and its Applications, Selection of Sensors and its Applications, Diagnosis and Detection of a Failure in Circuits using Sensors, Testing and Troubleshooting of Switch Gears"
+			}
+		},
+		{
+			"course_name": "Automation - Motors",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-elec",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "38.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Electrical Drives | Application Engineer | Automotive | Vocational Skills",
+			"course_details": {
+				"duration": "",
+				"industries": "Automotive, Manufacturing, Automation, Construction, Heavy Engineering, General Engineering, Process Industries",
+				"highlights": "Construction of Motors, Characteristics of Motors, Types of Motors, Installation, Operations, Speed Control of Motors, Maintenance of Motors, TroubleShooting",
+				"technique_skills": "Electrical Circuits and its Applications, Selection of Sensors and its Applications, Diagnosis and Detection of a Failure in, Circuits using Sensors, Testing and Troubleshooting of Switch Gears, Installation of Motors, Operation and Maintenance of Motors"
+			}
+		},
+		{
+			"course_name": "Automation - PLC programming - Basic",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "39.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Mechatronics | Application Engineer | Automotive | Vocational Skills",
+			"course_details": {
+				"duration": "16 Hours",
+				"industries": "Automotive, Manufacturing, Automation, Construction, Heavy Engineering, General Engineering, Process Industries",
+				"highlights": "Introduction to PLC, Types of PLC, PLC Architecture, Hardware Configuration, Signal Processing, Basics of Bit Logic PLC Programming and its Types, Sourcing & Sinking, Basics of PLC Programming",
+				"technique_skills": "Design of Industrial Pneumatic & Hydraulics Circuits, Maintenance Diagnosis and Troubleshooting of Hydraulics & Pneumatic Circuits and Components, Electrical Circuits and its Applications Selection of Sensors and its Applications, Diagnosis and Detection of an Failure in Circuits using Sensors, Testing and Troubleshooting of Switch Gears, Installation of Motor Operation and Maintenance of Motors, Basics of PLC Programming"
+			}
+		},
+		{
+			"course_name": "Automation - PLC Applications - Basic",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-man",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "40.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Mechatronics | Application Engineer | Automotive | Vocational Skills",
+			"course_details": {
+				"duration": "24 Hours",
+				"industries": "Automotive, Manufacturing, Automation, Construction, Heavy Engineering, General Engineering, Process Industries",
+				"highlights": "Applications of PLC Programming of Real World Applications, Traffic Light Control, Elevator Control, Conveyor Control, Pick and Place, Temperature Control",
+				"technique_skills": "Design of Industrial Pneumatic & Hydraulics Circuits, Maintenance Diagnosis and Troubleshooting of Hydraulics & Pneumatic Circuits and Components, Electrical Circuits and its Applications, Selection of Sensors and its Applications, Diagnosis and Detection of an Failure in Circuits using Sensors, Simple Applications in Automation using PLC"
+			}
+		},
+		{
+			"course_name": "Learnnovators Test Course",
+			"course_type": "Classroom Course",
+			"course_eng_stream": "",
+			"course_technology": "",
+			"course_job_roles": "",
+			"course_industry": "",
+			"course_level": "",
+			"course_image": "41.png",
+			"course_image2": "",
+			"course_video": "https://mtc-learning.com/pluginfile.php/671/course/summary/senthamil.mp4",
+			"course_sublinks": "",
+			"course_details": {
+				"duration": "",
+				"industries": "",
+				"highlights": "",
+				"technique_skills": ""
 			}
 		}
 	]

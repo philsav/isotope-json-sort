@@ -12,7 +12,7 @@
           <?php include 'learning.php' ?>
             <div class="clearfix"></div>
             <!--explore-->
-            <div class="explore">
+            <div class="explore" id="explore">
                <h3>Explore Our Digital Library</h3>
                <p>View our complete range of courses below, or refine the list by selecting an option in any of the selection boxes below.</p>
                <div class="row filters">

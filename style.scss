@@ -4,6 +4,10 @@
 	--blue: #00538b;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: calibri, sans-serif;
 	font-size: 18px;
@@ -120,6 +124,7 @@ img {
 //learning
 .content1 {
 	background: url("images/bg.png") no-repeat;
+	background-size: cover;
 	.learning {
 		background: #843628;
 		color: #fff;
@@ -200,7 +205,7 @@ img {
 				color: #00538b;
 			}
 			span.course-links {
-				padding: 5px 10px;
+				padding: 5px 10px 15px;
 				color: #df0f0f;
 				line-height: 1.2;
 			}
@@ -209,7 +214,7 @@ img {
 				color: #fff;
 				font-size: 20px;
 				padding: 3px 20px;
-				margin: auto 10px 10px;
+				margin: auto 10px 5px;
 				transition: 0.25s all ease;
 				&:hover {
 					text-decoration: none;
@@ -273,7 +278,7 @@ footer {
 //individual course
 .page-course-details {
 	.ind-courses {
-		padding: 30px 30px 60px;
+		padding: 30px;
 		h2 {
 			font-size: 28px;
 			color: #f10000;

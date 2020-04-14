@@ -7,7 +7,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">     
-             <a class="backlink" href="index.php">Back</a></div>
+             <a class="backlink" href="index.php#explore">Back</a></div>
           </div>
 
           <div class="" id="courses"></div>
@@ -21,22 +21,25 @@
 
             <h3>About this Course</h3>
             <h5>Duration of Course:</h5> {{course_details.duration}}
-
-            <hr/>
-
+            
+            {{#if course_details.industries}}
+            <hr/>            
             <h4>APPLICABLE INDUSTRIES</h4>
             {{{course_details.industries}}}
+            {{/if}}
 
+            {{#if course_details.highlights}}
             <hr/>
-
             <h4>HIGHLIGHTS</h4>
-            {{{course_details.highlights}}}
+            {{{course_details.highlights}}}           
+            {{/if}}
 
+            {{#if course_details.technique_skills}}
             <hr/>
-
             <h4>TECHNIQUES AND SKILLS FOCUSED HERE</h4>
             {{{course_details.technique_skills}}}
-            
+            {{/if}}
+            <br/><br/>
           </div>
 
           <div class="col-md-5">

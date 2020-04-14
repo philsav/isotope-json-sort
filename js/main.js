@@ -1,40 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
-	//JSON
-	//	(function(e) {
-	//		const xhr = new XMLHttpRequest();
-	//		xhr.open('GET', 'courses.json', true);
-	//
-	//		xhr.onload = function() {
-	//			if (this.status === 200) {
-	//				const courses = JSON.parse(this.responseText);
-	//				courses.sort(dynamicSort('course_name'));
-	//
-	//				let output = '';
-	//
-	//				courses.forEach((course) => {
-	//					output += `
-	//                 <div class="course-desc ${course.course_eng_stream} ${course.course_technology} ${course.course_job_roles} ${course.course_industry} ${course.course_level}">
-	//                 <img src="images/${course.course_image}" alt="">
-	//                 <h4>${course.course_name}</h4>
-	//                 <strong>Online Course</strong>
-	//                 <span class="course-links">${course.course_sublinks} </span>
-	//                 <a href="${course.course_link}" class="learn-more">Learn More</a>
-	//                 </div>
-	//                 `;
-	//				});
-	//
-	//				//document.querySelector('.grid').innerHTML = output;
-	//			}
-	//		};
-	//		xhr.send();
-	//	})();
-
 	//ISOTOPE init Isotope
 	function courseSort() {
 		setTimeout(function() {
 			var $grid = $('.grid').isotope({
 				itemSelector: '.course-desc',
 				layoutMode: 'fitRows',
+				onLayout: function() {
+					$(window).trigger('scroll');
+				},
 				filter: '*'
 			});
 
@@ -52,13 +25,13 @@ document.addEventListener('DOMContentLoaded', function() {
 				// set filter for Isotope
 				$grid.isotope({ filter: filterValue });
 
-				setTimeout(function() {
+				$grid.isotope('on', 'arrangeComplete', function() {
 					if ($('.course-desc:visible').length === 0) {
 						$('.no-results').css('display', 'block');
 					} else {
 						$('.no-results').css('display', 'none');
 					}
-				}, 500);
+				});
 			});
 
 			// flatten object by concatting values
@@ -69,32 +42,15 @@ document.addEventListener('DOMContentLoaded', function() {
 				}
 				return value;
 			}
-		}, 1000);
+		}, 250);
 	}
 	courseSort();
-
-	//dynamic sort
-	function dynamicSort(property) {
-		var sortOrder = 1;
-
-		if (property[0] === '-') {
-			sortOrder = -1;
-			property = property.substr(1);
-		}
-
-		return function(a, b) {
-			if (sortOrder == -1) {
-				return b[property].localeCompare(a[property]);
-			} else {
-				return a[property].localeCompare(b[property]);
-			}
-		};
-	}
 
 	//reset
 	$('.reset').on('click', function() {
 		$('.no-results').css('display', 'none');
 		courseSort();
+
 		//reset the dropdowns
 		$('select').each(function() {
 			$(this).val($('#' + $(this).attr('id') + ' option:first').val());
@@ -119,7 +75,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	var courseId = getParameterByName('id');
 
 	$.ajax('./data.json').done((allcourses) => {
-		var sortedByName = allcourses.course.sort((a, b) => (a.course_name > b.name ? 1 : -1));
+		var sortedByName = allcourses.course.sort((a, b) => (a.course_name > b.course_name ? 1 : -1));
+
 		allcourses.course = sortedByName;
 
 		if ($('body').hasClass('page-course-details')) {
@@ -138,5 +95,40 @@ document.addEventListener('DOMContentLoaded', function() {
 			}
 		});
 		$('.course-desc').height(maxHeight);
-	}, 0);
+	}, 100);
+
+	//remove # from url
+
+	//end
 });
+
+//lazy
+document.addEventListener("DOMContentLoaded", function() {
+	var lazyloadImages = document.querySelectorAll("img.lazy");    
+	var lazyloadThrottleTimeout;
+	
+	function lazyload () {
+	  if(lazyloadThrottleTimeout) {
+		clearTimeout(lazyloadThrottleTimeout);
+	  }    
+	  
+	  lazyloadThrottleTimeout = setTimeout(function() {
+		  var scrollTop = window.pageYOffset;
+		  lazyloadImages.forEach(function(img) {
+			  if(img.offsetTop < (window.innerHeight + scrollTop)) {
+				img.src = img.dataset.src;
+				img.classList.remove('lazy');
+			  }
+		  });
+		  if(lazyloadImages.length == 0) { 
+			document.removeEventListener("scroll", lazyload);
+			window.removeEventListener("resize", lazyload);
+			window.removeEventListener("orientationChange", lazyload);
+		  }
+	  }, 20);
+	}
+	
+	document.addEventListener("scroll", lazyload);
+	window.addEventListener("resize", lazyload);
+	window.addEventListener("orientationChange", lazyload);
+  });

@@ -6,17 +6,16 @@
            
            <script id="course-template" type="text/x-handlebars-template">
            {{#each course}}
-           <div class="course-desc {{course_eng_stream}} {{course_technology}} {{course_job_roles}} {{course_industry}} {{course_level}}">               
-                 <img src="images/{{course_image}}" alt="">
+           <div class="course-desc {{course_eng_stream}} {{course_technology}} {{course_job_roles}} {{course_industry}} {{course_level}}">             
+                 <img src="images/{{course_image}}" alt="" loading="lazy" class="lazy">
                  <h4>{{course_name}}</h4>
-                 <strong>Online Course</strong>
-                 <span class="course-links">{{course_sublinks}}</span>
+                 <strong>{{course_type}}</strong>
+                 <span class="course-links">{{{course_sublinks}}}</span>
                  <a href="./course-details.php?id={{@index}}" class="learn-more">Learn More</a> 
                 <!-- <p> {{#if page_image}}{{page_image}}{{else}}unknown{{/if}}</p> -->
-            </div><br/>
+            </div>
             {{/each}}
            </script>
-           
        
     </section>
     <div class="clearfix"></div>
