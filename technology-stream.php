@@ -1,5 +1,5 @@
 <select class="filter-select" value-group="technology-stream">
-<option value="">All Technology</option>
+<option value="">All Technologies</option>
 <option value=".tech-auto">Automation</option>
 <option value=".tech-cad">CAD</option>
 <option value=".tech-cae">CAE</option>

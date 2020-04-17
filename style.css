@@ -89,19 +89,20 @@ img {
 
 .banner .banner-text h3 {
   font-weight: 100;
-  font-size: 22px;
+  font-size: 24px;
   padding-top: 0px;
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 .banner .banner-text h3 strong {
   font-weight: 700;
-  display: block;
+  display: inline;
+  font-size: 24px;
 }
 
 .banner form {
   background: #fff;
-  padding: 20px 15px;
+  padding: 20px;
   border-radius: 5px;
   color: #000;
   max-width: 500px;
@@ -112,6 +113,13 @@ img {
 
 .banner form .form-control {
   border-left: none;
+  padding: 25px 10px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.banner form .input-group-prepend {
+  margin-top: 10px;
 }
 
 .banner form .input-group-text {
@@ -121,7 +129,8 @@ img {
 }
 
 .banner form .input-group-text img {
-  max-width: 20px;
+  max-width: auto;
+  padding: 5px;
 }
 
 .banner form .form-check {
@@ -129,11 +138,15 @@ img {
 }
 
 .banner form button {
-  width: 180px;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .banner form .form-check-label {
   margin-bottom: 30px;
+  font-size: 18px;
 }
 
 .content1 {
@@ -145,6 +158,14 @@ img {
   background: #843628;
   color: #fff;
   padding: 50px 30px 40px;
+}
+
+.content1 .learning h3 {
+  font-size: 22px;
+}
+
+.content1 .learning p {
+  font-size: 20px;
 }
 
 .content1 .explore {
@@ -186,6 +207,8 @@ img {
   display: none;
   text-align: center;
   padding-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .content2 .courses {
@@ -378,6 +401,15 @@ footer .copyright {
 @media (min-width: 1200px) {
   form button {
     width: 220px;
+  }
+}
+
+@media (max-width: 520px) {
+  .page-course-details .ind-courses {
+    padding: 15px;
+  }
+  .banner {
+    padding: 30px 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */

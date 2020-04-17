@@ -1,5 +1,5 @@
 <select class="filter-select" value-group="engineering-stream">
-<option value="">All Engineering Stream</option>
+<option value="">All Engineering Streams</option>
 <option value=".es-aero">Aeronautical</option>
 <option value=".es-auto">Automobile</option>
 <option value=".es-chem">Chemical</option>

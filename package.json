@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "slugify": "^1.4.0",
     "yall-js": "^3.2.0"
   }
 }

@@ -10,13 +10,13 @@
                      </h2>
                   </div>
                </div>
-               <div class="col-md-6 col-lg-5 banner-text">
+               <div class="col-md-6 col-lg-4 banner-text">
                   <h3>Deliver powerful learning every step of the way. <strong>World-class Learning Management System (LMS) with online courses on Advanced Manufacturing Technologies.</strong></h3>
                </div>
-               <div class="col-lg-3 align-items-center justify-content-center">
-                  <form>
+               <div class="col-lg-4 align-items-center justify-content-center">
+                  <form id="login-form">
                      <div class="form-row align-items-center justify-content-center">
-                        <div class="col-auto">
+                        <div class="col-sm-12">
                            <label class="sr-only" for="inlineFormInputGroup">Username</label>
                            <div class="input-group mb-2">
                               <div class="input-group-prepend">
@@ -25,7 +25,7 @@
                               <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
                            </div>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-sm-12">
                            <label class="sr-only" for="inlineFormInputGroup2">Password</label>
                            <div class="input-group mb-2">
                               <div class="input-group-prepend">
@@ -42,13 +42,13 @@
                               </label>
                            </div>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-sm-12">
                            <button type="submit" class="btn btn-light mb-2">Login</button>
                         </div>
                         <div class="col-sm-12">
-                           <a href="">Forgot Username / Password</a> 
+                           <a href="" style="font-size:18px;color:#000">Forgot Username / Password</a> 
                         </div>
-                        <div class="col-auto  mt-4">
+                        <div class="col-sm-12  mt-4">
                            <button type="submit" class="btn btn-light mb-2">Register</button>
                         </div>
                      </div>

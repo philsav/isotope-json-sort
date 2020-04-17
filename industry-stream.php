@@ -1,5 +1,5 @@
 <select class="filter-select" value-group="industry-stream">
-<option value="">All Industry</option>
+<option value="">All Industries</option>
 <option value=".ind-adv">Advanced Manufacturing</option>
 <option value=".ind-aero">Aerospace</option>
 <option value=".ind-automa">Automation</option>

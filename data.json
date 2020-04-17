@@ -2,6 +2,7 @@
 	"course": [
 		{
 			"course_name": "Robotics - Material Handling ABB",
+			"shortcode": "rmha",
 			"course_type": "Online Course",
 			"course_eng_stream": "es-auto",
 			"course_technology": "tech-robot",
@@ -749,7 +750,7 @@
 			"course_job_roles": "",
 			"course_industry": "",
 			"course_level": "",
-			"course_image": "41.png",
+			"course_image": "50.jpg",
 			"course_image2": "",
 			"course_video": "https://mtc-learning.com/pluginfile.php/671/course/summary/senthamil.mp4",
 			"course_sublinks": "",
@@ -758,6 +759,481 @@
 				"industries": "",
 				"highlights": "",
 				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "Automation - plc programming - Advanced",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-elec",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "",
+			"course_image": "42.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Electrical Engineering | Mechatronics | Application Engineer | Automotive ",
+			"course_details": {
+				"duration": "40 Hours",
+				"industries": "Automotive, Manufacturing, Automation, Construction, Heavy Engineering, General Engineering, Process Industries",
+				"highlights": "Ladder Logic Programming, Statement List, Functional Block Diagrams, PLC Memory and its Functions, Bytes and Words, Comparators, Math Functions, Program Management",
+				"technique_skills": "Design of Industrial Pneumatic & Hydraulics Circuits, Maintenance Diagnosis and Troubleshooting of Hydraulics & Pneumatic Circuits and Components, Electrical Circuits and its Applications, Selection of Sensors and its Applications, Diagnosis and Detection of an Failure in Circuits using Sensors, Testing and Troubleshooting of Switch Gears, Installation of Motor Operation and Maintenance of Motors, Advanced Level PLC Programming, Simple Applications in Automation using PLC"
+			}
+		},
+		{
+			"course_name": "Automation - plc Applications - Advanced",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-elec",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-engrad",
+			"course_image": "43.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Electrical Engineering | Mechatronics | Application Engineer | Automotive | Engineering Graduate",
+			"course_details": {
+				"duration": "60 Hours",
+				"industries": "Automotive, Manufacturing, Automation, Construction, Heavy Engineering, General Engineering, Process Industries",
+				"highlights": "Introduction to Industrial Applications, Material Handling, Sorting, Batching, Inspection, Process Control",
+				"technique_skills": "Programming of Circuits, Selection of Relevant Components, Design of Industrial Pneumatic & Hydraulics Circuits, Maintenance, Diagnosis and Troubleshooting of Hydraulics & Pneumatic Circuits and Components, Electrical Circuits and its Applications, Selection of Sensors and its Applications, Diagnosis and Detection of a Failure in Circuits using Sensors, Testing and Troubleshooting of Switch Gears, Installation of Motor Operation and Maintenance of Motors, Advanced Level PLC Programming, Applications in Automation using PLC"
+			}
+		},
+		{
+			"course_name": "Automation - plc Trouble shooting",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-elec",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-engrad",
+			"course_image": "44.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Electrical Engineering | Mechatronics | Application Engineer | Automotive | Engineering Graduate",
+			"course_details": {
+				"duration": "40 Hours",
+				"industries": "Automotive, Manufacturing, Automation, Construction, Heavy Engineering, General Engineering, Process Industries",
+				"highlights": "Fault Finding of Automation, Repair of Components, Trouble Shooting of Systems",
+				"technique_skills": "Selection of PLC, Diagnosis and troubleshooting of automation systems using PLC, Design of Industrial Pneumatic & Hydraulics Circuits, Maintenance, Diagnosis and Troubleshooting of Hydraulics & Pneumatic Circuits and Components, Electrical Circuits and its Applications, Selection of Sensors and its Applications, Diagnosis and Detection of a Failure in Circuits using Sensors, Testing and Troubleshooting of Switch Gears, Installation of Motor Operation and Maintenance of Motors, Basic Applications in Automation using PLC, Advanced Level PLC Programming"
+			}
+		}, 
+		{
+			"course_name": "Automation - SCADA",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-power",
+			"course_job_roles": "jr-design",
+			"course_industry": "ind-auto",
+			"course_level": "lev-engrad",
+			"course_image": "45.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Power Transmission | Design & Development | Automotive | Engineering Graduate",
+			"course_details": {
+				"duration": "60 Hours",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "Automation - DCS",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-engrad",
+			"course_image": "46.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Mechatronics | Application Engineer | Automotive | Engineering Graduate",
+			"course_details": {
+				"duration": "60 Hours",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "Mechatronics - Design",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-elecom",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-engrad",
+			"course_image": "47.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Electronics & Communication Engineering | Mechatronics | Application Engineer | Automotive | Engineering Graduate",
+			"course_details": {
+				"duration": "",
+				"industries": "Automotive, Manufacturing, Automation, Heavy Engineering, General Engineering, Process Industries",
+				"highlights": "Study of System, Selection of Components, Creation of Function Block, Assemble of System, Electrical Connections, Integration of System, Study and Analysis of Process, Creation of Reports",
+				"technique_skills": "Design of Applications, Programming of Systems, Selection of Relevant Components, Design of Industrial Pneumatic, Design of Hydraulics Circuits, Electrical Circuits and its Applications, Selection of Sensors and its Applications, Process Sequence & Process Analysis, Advanced Level PLC Programming, Applications in Automation using PLC"
+			}
+		},
+		{
+			"course_name": "Programming in Mechatronics",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-instr",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-engrad",
+			"course_image": "48.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Instrumentation Engineering | Mechatronics | Application Engineer | Automotive | Engineering Graduate",
+			"course_details": {
+				"duration": "60 Hours",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "Mechatronics - Operation",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-instr",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-engrad",
+			"course_image": "49.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Instrumentation Engineering | Mechatronics | Application Engineer | Automotive | Engineering Graduate",
+			"course_details": {
+				"duration": "60 Hours",
+				"industries": "Automotive, Manufacturing, Automation, Heavy Engineering, General Engineering, Process Industries",
+				"highlights": "Power on Mechatronics System, Safety, Inspection of Systems, Test Run of Sub Systems, Integration of Sub Systems, Single Mode Operations, Batch Mode Operations, Cyclic Mode Operations, Shutting of Mechatronics System",
+				"technique_skills": "Overall System Integration, Power On/Off Mechatronic System, Testing of Sensors & Motors, Actuators in Pneumatic & Hydraulic Circuits, Mechanical Alignments of System, Electrical System Wiring Testing, Test Run of System, Estimation of Process Cycle Time &, Optimization, Advanced Level PLC Programming, Applications in Automation using PLC"
+			}
+		},
+		{
+			"course_name": "Mechatronics - Trouble Shooting",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-elec",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "50.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Electrical Engineering | Mechatronics | Application Engineer | Automotive | Vocational Skills",
+			"course_details": {
+				"duration": "60 Hours",
+				"industries": "Automotive, Manufacturing, Automation, Heavy Engineering, General Engineering, Process Industries",
+				"highlights": "Fault Identification of System, Repair, Breakdown Maintenance, Preventive Maintenance, TroubleShooting",
+				"technique_skills": "Fault Finding and Diagnosis of System, Power On/Off Mechatronic System, Testing of Sensors & Motors, Actuators in Pneumatic & Hydraulic Circuits, Mechanical Alignments of System, Electrical System Wiring Testing, Test Run of System, Diagnosis and Detection of a Failure in, Circuits using Sensors, Testing and TroubleShooting of Switch Gears, Operation and Maintenance of Motors"
+			}
+		},
+		{
+			"course_name": "Robotics - Assembly ABB",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-auto",
+			"course_technology": "tech-robot",
+			"course_job_roles": "jr-design",
+			"course_industry": "ind-auto",
+			"course_level": "lev-dip",
+			"course_image": "51.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Automobile Engineering | Robotics | Design & Development | Automotive | Diploma ",
+			"course_details": {
+				"duration": "60 Hours",
+				"industries": "Manufacturing, Production, Fabrication, Automotive, General Engineering, Allied Industries using CNC Machines",
+				"highlights": "",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "Essentials for NX Designers",
+			"course_type": "Classroom Course",
+			"course_eng_stream": "es-aero",
+			"course_technology": "tech-man",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-voc",
+			"course_image": "50.jpg",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Mechatronics | Design & Development | Automotive | Vocational Skills",
+			"course_details": {
+				"duration": " Hours",
+				"industries": "",
+				"highlights": "Work with NX part files and NX template files, Understand how to effectively use the NX user interface and workspace, Create sketches to capture design intent, Create reference geometry for model development (such as datum planes, axes, and coordinate systems), Create basic features by sweeping and extruding geometry, Analyze feature geometry Add detail to features such as blends and drafts,Produces assemblies of component parts, Produce annotated 2D drawings of models",
+				"technique_skills": "Engineers, designers, editors, inspectors, and administrators who need to manage and use NX."
+			}
+		},
+		{
+			"course_name": "Robotics - Material Handling KUKA",
+			"course_type": "Online Course",
+			"course_eng_stream": "es-",
+			"course_technology": "tech-",
+			"course_job_roles": "jr-",
+			"course_industry": "ind-",
+			"course_level": "lev-",
+			"course_image": "50.jpg",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "",
+			"course_details": {
+				"duration": "",
+				"industries": "",
+				"highlights": "",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "Basics of Process Instrumentation",
+			"course_type": "Classroom Course",
+			"course_eng_stream": "es-auto",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-engrad",
+			"course_image": "53.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Automobile Engineering | Mechatronics | Application Engineer | Automotive | Engineering Graduate",
+			"course_details": {
+				"duration": "",
+				"industries": "",
+				"highlights": "<strong>1. FLOW measurement</strong><br/>- Magnetic Flowmeter technology<br/>- Mass Flowmeter technology<br/>- Ultrasonic Flowmeter technology (Inline & Clamp-O-<br/><strong>2. LEVEL measurement</strong><br/>- Ultrasonic Level Technology<br/>- Radar Level Technology<br/>- Capacitance Level Technology<br/><strong>3. PRESSURE Measurement</strong><br/><strong>4. TEMPERATURE Measurement</strong><br/><strong5.>5. ELECTROPENUMATIC POSITIONER</strong><br/>Topics for all the above Measurements.<br/>-Various Technology<br/>-Working Principles<br/>-Product overview<br/>-Live demo & Hands-on trial for Pressure, Temperature & Positioners, etc.<br/>",
+				"technique_skills": "<strong>Prerequisites</strong><br/>Diploma / Degree students in Electrical /Electronics/Instrumentation/ENTC/Biomedical/ Mechanical Engineering"
+			}
+		},
+		{
+			"course_name": "Basics of Distributed Control System",
+			"course_type": "Classroom Course",
+			"course_eng_stream": "es-elec",
+			"course_technology": "tech-mech",
+			"course_job_roles": "jr-apeng",
+			"course_industry": "ind-auto",
+			"course_level": "lev-engrad",
+			"course_image": "54.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Electrical Engineering | Mechatronics | Application Engineer | Automotive | Engineering Graduate",
+			"course_details": {
+				"duration": "60 Hours",
+				"industries": "",
+				"highlights": "<strong>Course Contents:</strong><br/><br/>System overview consisting of Software & component of WinCC, Runtime options & licensing along with system requirements.<br/><br/>Configuration of software using different interfacing options available like different views & windows.<br/><br/>Creation of the project and setting up the connection with the controller. Checking Device configurations & Runtime settings.<br/><br/>Basics steps required for configuration like screen layout, using different object on screens.<br/><br/>- A brief introduction on Runtime scripting & making objects dynamic using System functions.<br/><br/>- User & System defined Alarm, the configuration of messages in the alarm system.<br/><br/>- Creating Users, assigning security to objects using User administration.<br/><br/>- Logging of cyclic/acyclic data using Tag logging.<br/><br/>- Recipe Management for storing different sets of data.<br/><br/>- Migration of older version project to TIA portal.<br/><br/><strong>Prerequisite: </strong><br/><br/>Basic Knowledge of TIA Portal software & Automation technology / relay logic.<br/><br/><strong>Target Group:</strong><br/><br/>Engineers in Instrumentation / Electrical / Electronics / Engineering.<br/>",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "Cnc Programming",
+			"course_type": "Classroom Course",
+			"course_eng_stream": "es-",
+			"course_technology": "tech-",
+			"course_job_roles": "jr-",
+			"course_industry": "ind-",
+			"course_level": "lev-",
+			"course_image": "50.jpg",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "",
+			"course_details": {
+				"duration": " Hours",
+				"industries": "",
+				"highlights": "",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "Essentials of IIOT",
+			"course_type": "Classroom Course",
+			"course_eng_stream": "es-",
+			"course_technology": "tech-",
+			"course_job_roles": "jr-",
+			"course_industry": "ind-",
+			"course_level": "lev-",
+			"course_image": "50.jpg",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "",
+			"course_details": {
+				"duration": " Hours",
+				"industries": "",
+				"highlights": "",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "Renewable Energy systems",
+			"course_type": "Classroom Course",
+			"course_eng_stream": "es-",
+			"course_technology": "tech-",
+			"course_job_roles": "jr-",
+			"course_industry": "ind-",
+			"course_level": "lev-",
+			"course_image": "50.jpg",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "",
+			"course_details": {
+				"duration": " Hours",
+				"industries": "",
+				"highlights": "",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "Basics of Measuring instruments - Profile projector, Microscope & instruments",
+			"course_type": "Classroom Course",
+			"course_eng_stream": "es-",
+			"course_technology": "tech-",
+			"course_job_roles": "jr-",
+			"course_industry": "ind-",
+			"course_level": "lev-",
+			"course_image": "50.jpg",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "",
+			"course_details": {
+				"duration": " Hours",
+				"industries": "",
+				"highlights": "",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "IOT",
+			"course_type": "Classroom Course",
+			"course_eng_stream": "es-",
+			"course_technology": "tech-",
+			"course_job_roles": "jr-",
+			"course_industry": "ind-",
+			"course_level": "lev-",
+			"course_image": "50.jpg",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "",
+			"course_details": {
+				"duration": " Hours",
+				"industries": "",
+				"highlights": "",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "Design and Validation",
+			"course_type": "Classroom Course",
+			"course_eng_stream": "es-",
+			"course_technology": "tech-",
+			"course_job_roles": "jr-",
+			"course_industry": "ind-",
+			"course_level": "lev-",
+			"course_image": "50.jpg",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "",
+			"course_details": {
+				"duration": " Hours",
+				"industries": "",
+				"highlights": "",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "Advanced Manufacturing Technology",
+			"course_type": "Classroom Course",
+			"course_eng_stream": "es-",
+			"course_technology": "tech-",
+			"course_job_roles": "jr-",
+			"course_industry": "ind-",
+			"course_level": "lev-",
+			"course_image": "50.jpg",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "",
+			"course_details": {
+				"duration": " Hours",
+				"industries": "",
+				"highlights": "",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "Test and Optimization",
+			"course_type": "Classroom Course",
+			"course_eng_stream": "es-",
+			"course_technology": "tech-",
+			"course_job_roles": "jr-",
+			"course_industry": "ind-",
+			"course_level": "lev-",
+			"course_image": "50.jpg",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "",
+			"course_details": {
+				"duration": " Hours",
+				"industries": "",
+				"highlights": "",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "CNC Programming - Siemens 828D",
+			"course_type": "Classroom Course",
+			"course_eng_stream": "es-",
+			"course_technology": "tech-",
+			"course_job_roles": "jr-",
+			"course_industry": "ind-",
+			"course_level": "lev-",
+			"course_image": "50.jpg",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "",
+			"course_details": {
+				"duration": " Hours",
+				"industries": "",
+				"highlights": "",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "Basics of Robotics",
+			"course_type": "Classroom Course",
+			"course_eng_stream": "es-",
+			"course_technology": "tech-",
+			"course_job_roles": "jr-",
+			"course_industry": "ind-",
+			"course_level": "lev-",
+			"course_image": "50.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "Aeronautical Engineering | Robotics | Electronics",
+			"course_details": {
+				"duration": " Hours",
+				"industries": "",
+				"highlights": "",
+				"technique_skills": ""
+			}
+		},
+		{
+			"course_name": "Mechatronics- Design, Programming, Operation ,Trouble shooting",
+			"course_type": "Classroom Course",
+			"course_eng_stream": "es-",
+			"course_technology": "tech-",
+			"course_job_roles": "jr-",
+			"course_industry": "ind-",
+			"course_level": "lev-",
+			"course_image": "55.png",
+			"course_image2": "",
+			"course_video": "",
+			"course_sublinks": "",
+			"course_details": {
+				"duration": "120 Hours",
+				"industries": "Automotive, Manufacturing, Automation, Heavy Engineering, General Engineering, Process Industries",
+				"highlights": "Programming of Modular Automation Plant, Dispensing Station, Inspection Station, Filling Station, Capping Station, Buffering Station, Sorting Station",
+				"technique_skills": "Design of Applications, Programming of Systems, Selection of Relevant Components, Design of Industrial Pneumatics, Design of Hydraulics Circuits, Electrical Circuits and its Applications, Selection of Sensors and its Applications, Diagnosis and Detection of a Failure in Circuits using Sensors, Testing and Troubleshooting of Switch Gears"
 			}
 		}
 	]

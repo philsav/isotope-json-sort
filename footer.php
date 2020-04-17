@@ -43,9 +43,9 @@
       <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
 
 
-      <!-- <script src="build/app.bundle.js"></script> -->
+      <script src="build/app.bundle.js"></script>
       
-      <script src="js/main.js"></script>
+      <!-- <script src="js/main.js"></script> -->
     
    </body>
 </html>
